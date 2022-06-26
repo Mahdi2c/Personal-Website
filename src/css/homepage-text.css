@@ -1,0 +1,59 @@
+.homepage-text{
+    position: relative;
+    top: 40%;
+    left: 15%;
+    width: 80%;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+}
+
+.green{
+    color: #84CE77;
+}
+
+.hello-world{
+    font-size: 250%;
+    color: #84CE77;
+}
+
+.hello-world2{
+    font-size: 120%;
+    color: white;
+}
+
+.intro1{
+    margin-top: 20px;
+    font-size: 200%;
+    width: 40%;
+    color: white;
+}
+
+.intro2{
+    font-size: 170%;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.intro3{
+    font-size: 140%;
+    width: 40%;
+    color: white;
+}
+
+.github-icon{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: 40px;
+    left: 15%;
+    border-radius: 50px;
+}
+
+.me-image{
+    position: relative;
+    float: right;
+    width: 400px;
+    height: 360px;
+    border-radius: 50px;
+    left: -8%;
+}
