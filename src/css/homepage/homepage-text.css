@@ -1,8 +1,9 @@
 .homepage-text{
     position: relative;
-    top: 40%;
+    top: 35%;
     left: 15%;
-    width: 80%;
+    width: 85%;
+    font-size: 125%;
     letter-spacing: 1px;
     font-family: 'Inter', sans-serif;
 }
@@ -41,19 +42,40 @@
 }
 
 .github-icon{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: 90px;
+    left: 10%;
+    border-radius: 50px;
+    border: solid 2pt rgb(34, 31, 31);
+}
+
+.github-icon:hover{
     width: 120px;
     height: 120px;
+}
+
+.linkedin-icon{
+    width: 100px;
+    height: 100px;
     position: relative;
-    margin-top: 40px;
+    margin-top: 90px;
     left: 15%;
     border-radius: 50px;
+    border: solid 2pt rgb(55, 47, 167);
+}
+
+.linkedin-icon:hover{
+    width: 120px;
+    height: 120px;
 }
 
 .me-image{
     position: relative;
     float: right;
-    width: 400px;
-    height: 360px;
     border-radius: 50px;
     left: -8%;
+    width: 30%;
+    height: auto;
 }

@@ -3,7 +3,7 @@
     font-family: 'Inter', sans-serif;
     position: fixed;
     width: 100%;
-    font-size: 130%;
+    font-size: 140%;
     color: white;
     z-index: 100;
     display: inline-block; 
@@ -11,7 +11,7 @@
     padding: 1.5%;
 }
 
-.icon{
+.fixed-title-icon{
     width: 140px;
     height: 140px;
     position: relative;
