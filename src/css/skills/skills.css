@@ -1,5 +1,196 @@
 .skills-text{
     position: relative;
+    left: 15%;
+    top: 32%;
+    color: white;
+    width: 50%;
+}
+
+/* SOURCED FROM: https://www.geeksforgeeks.org/how-to-create-a-progress-bar-animation-using-html-and-css/ */
+
+/* Stylingthe last h2 tag by giving margin bottom */
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 50px;
+}
+ 
+/* Styling the h2 tag by giving color,
+letter spacing, font-size etc.*/
+.progress-bar-container h2 {
+    font-family: 'Inter', sans-serif;
+    color: #eee;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+ 
+/* Styling the border and box
+effect of the progress bar*/
+.progress-bar {
+    width: 800px;
+    height: 5px;
+    margin-top: 10px;
+    border: 1px solid rgb(225, 233, 225);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #2e6d23;
+}
+ 
+/* Stylingthe background color of each
+animation and border radius */
+.percentage {
+    display: block;
+    height: 100%;
+    background: rgb(208,233,204);
+    background: linear-gradient(90deg, rgba(208,233,204,1) 0%, rgba(154,201,146,1) 32%, rgba(89,249,61,1) 100%);
+    border-radius: 5px;
+    animation: progress 1500ms ease-in 1;
+}
+ 
+/* Assigning width of each languages*/
+.HTML{
+    width: 95%;
+}
+ 
+.CSS{
+    width: 80%;
+}
+ 
+.JavaScript{
+    width: 75%;
+}
+ 
+.PHP{
+    width: 70%;
+}
+ 
+/* Animating the progress bar by
+initially starting from 0*/
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!  */
+
+/* Split page */
+.split{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 5%;
+  }
+  
+  .right {
+    right: 0;
+  }
+  
+  .centered {
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #84CE77;;
+  }
+
+  /* !!!!!!!!!!!!!!!!!!!!!!!!  */
+
+.about-me-title{
+    font-size: 250%;
+    color: #84CE77;
+    padding-bottom: 20%;
+    position: relative;
+}
+
+.emails-text{
+    color: #84CE77;
+    padding-bottom: 10%;
+}
+
+.emails-sub{
     color: white;
 }
+
+.website-text{
+    color: #84CE77;
+    padding-bottom: 30%;
+}
+
+.website-sub{
+    color: white; 
+}
+
+/* SOURCED FROM: https://getcssscan.com/css-buttons-examples */
+.cv-button{
+    padding: 5% 10%;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.cv-button:before{
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-cv-button 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowing-cv-button {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.cv-button:after{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+

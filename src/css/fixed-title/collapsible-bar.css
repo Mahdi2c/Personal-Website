@@ -16,7 +16,7 @@
   .sidebar-green-text{
     color: #84CE77;
   }
-  
+
   /* The sidebar links */
   .sidebar a {
     padding: 8px 8px 8px 32px;
@@ -29,7 +29,7 @@
   
   /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
-    color: black;
+    color: #c2e6bc;
   }
   
   /* Position and style the close button (top right corner) */

@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="../css/fixed-title/collapsible-bar.css"> 
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/backgrounds.css">
+  <link rel="stylesheet" href="../css/skills/skills.css">
 
   <!-- Importing font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +25,7 @@
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="homepage.html"><span class = "sidebar-green-text">H</span>ome</a>
-        <a href="skills.html"><span class = "sidebar-green-text">S</span>kills</a>
+        <a style = "color:#a1e096;" href="skills.html"><span class = "sidebar-green-text">S</span>kills</a>
         <a href="projects.html"><span class = "sidebar-green-text">P</span>rojects</a>
         <a href="resume.html"><span class = "sidebar-green-text">R</span>esume</a>
       </div>
@@ -40,8 +41,53 @@
   </div>
 
   <!-- Skills text -->
-  <div>
+
+  <!-- SOURCED FROM: https://www.geeksforgeeks.org/how-to-create-a-progress-bar-animation-using-html-and-css/ */ -->
+  <div class="split left">
+    <div class="centered">
+        <div class="progress-bar-container">
+            <h2>HTML</h2>
+            <div class="progress-bar">
+                <span class="percentage HTML"></span>
+            </div>
+        </div>
+
+        <div class="progress-bar-container">
+            <h2>CSS</h2>
+            <div class="progress-bar">
+                <span class="percentage CSS"></span>
+            </div>
+        </div>
+
+        <div class="progress-bar-container">
+            <h2>JavaScript</h2>
+            <div class="progress-bar">
+                <span class="percentage JavaScript"></span>
+            </div>
+        </div>
+
+        <div class="progress-bar-container">
+            <h2>PHP</h2>
+            <div class="progress-bar">
+                <span class="percentage PHP"></span>
+            </div>
+        </div>
+
+        <div class="progress-bar-container">
+          <h2>If you would like to see my projects - visit my <a class = "sidebar-green-text" 
+            target="_blank" href = "https://github.com/Mahdi2c">Github</a> and <a class = "sidebar-green-text" target="_blank" href = "Projects.html">Projects</a> page</h2>
+        </div>
+    </div>
   </div>
-  
+
+  <div class="split right">
+    <div class="centered">
+      <p class = "about-me-title">Contact me</p>
+      <p class = "emails-text"> Email : <span class = "emails-sub">mahdi2c.professional@hotmail.com</span></p>
+      <p class = "website-text">Website : <span class = "website-sub">mahdi2c.com</span></p>
+      <a href="../../CV.jpg" download = "CV"><button class = "cv-button">Download my CV</button></a>
+    </div>
+  </div>
+
 </body>
 </html>
