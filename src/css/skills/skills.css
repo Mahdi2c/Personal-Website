@@ -29,7 +29,7 @@ effect of the progress bar*/
     height: 5px;
     margin-top: 10px;
     border: 1px solid rgb(225, 233, 225);
-    border-radius: 5px;
+    
     box-shadow: 0 0 10px #2e6d23;
 }
  
@@ -40,7 +40,6 @@ animation and border radius */
     height: 100%;
     background: rgb(208,233,204);
     background: linear-gradient(90deg, rgba(208,233,204,1) 0%, rgba(154,201,146,1) 32%, rgba(89,249,61,1) 100%);
-    border-radius: 5px;
     animation: progress 1500ms ease-in 1;
 }
  
@@ -95,7 +94,6 @@ initially starting from 0*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
     color: #84CE77;;
   }
 
@@ -128,6 +126,7 @@ initially starting from 0*/
 
 /* SOURCED FROM: https://getcssscan.com/css-buttons-examples */
 .cv-button{
+    left: 11%;
     padding: 5% 10%;
     border: none;
     outline: none;
@@ -136,7 +135,6 @@ initially starting from 0*/
     cursor: pointer;
     position: relative;
     z-index: 0;
-    border-radius: 10px;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -146,15 +144,15 @@ initially starting from 0*/
     content: "";
     background: linear-gradient(
       45deg,
-      #ff0000,
-      #ff7300,
-      #fffb00,
-      #48ff00,
-      #00ffd5,
-      #002bff,
-      #7a00ff,
-      #ff00c8,
-      #ff0000
+      #a4f5bf,
+      #9df5ba,
+      #90f5b2,
+      #83f2a8,
+      #79f2a2,
+      #6ef09a,
+      #63f294,
+      #58ed8b,
+      #4de882
     );
     position: absolute;
     top: -2px;
@@ -167,7 +165,6 @@ initially starting from 0*/
     height: calc(100% + 4px);
     animation: glowing-cv-button 20s linear infinite;
     transition: opacity 0.3s ease-in-out;
-    border-radius: 10px;
 }
 
 @keyframes glowing-cv-button {
@@ -191,6 +188,5 @@ initially starting from 0*/
     background: #222;
     left: 0;
     top: 0;
-    border-radius: 10px;
 }
 
