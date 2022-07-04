@@ -1,0 +1,29 @@
+.footer{
+    position: relative;
+    top: 60%;
+    padding-left: 20%;
+    background-color: #36393d;
+    height: 100%;
+    letter-spacing: 2px;
+    font-family: 'Inter', sans-serif;
+    font-size: 140%;
+    color: white;
+}
+
+.footer-github-icon{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-top: 90px;
+    left: 5%;
+    border-radius: 20px;
+}
+
+.footer-linkedin-icon{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-top: 90px;
+    left: 5%;
+    border-radius: 20px;
+}
