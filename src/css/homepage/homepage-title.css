@@ -1,0 +1,40 @@
+.big-title{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    box-shadow: 0px 10px rgba(255, 255, 255, 0.07);
+}
+
+.parent-center{
+    height: 100vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-name-mahdi{
+    font-size: 500%;
+    padding-bottom: 5%;
+    color: #84CE77;
+}
+
+.big-name-toussi{
+    font-size: 500%;
+    padding-bottom: 5%;
+}
+
+.big-info-1{
+    font-size: 200%;
+}
+
+.big-info-2{
+    font-size: 200%;
+    color: #84CE77; 
+}
+

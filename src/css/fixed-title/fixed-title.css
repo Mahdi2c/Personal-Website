@@ -17,6 +17,8 @@
     position: relative;
     left: 10%;
     float: left;
+    border: 10pt solid #2A2F36;   
+    border-radius: 100%;   
 }
 
 .fixed-title-line{
