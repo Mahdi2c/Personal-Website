@@ -1,8 +1,9 @@
 .homepage-text{
     position: relative;
-    top: 35%;
+    top: 27%;
     left: 15%;
     width: 85%;
+    height: 65vh;
     font-size: 125%;
     letter-spacing: 1px;
     font-family: 'Inter', sans-serif;
