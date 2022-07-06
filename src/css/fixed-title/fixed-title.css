@@ -50,3 +50,12 @@
     position: absolute;
     top: 20%;
 }
+
+/* For responsiveness: */
+@media only screen and (min-width: 2000px) {
+    /* For Tablets: */
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For Phones: */
+  }

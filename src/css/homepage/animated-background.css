@@ -6,30 +6,30 @@
   background: linear-gradient(90deg, rgb(62, 69, 77) 9%, rgba(42,47,54,1) 53%, rgb(30, 34, 39) 100%);
   background-size: 400% 400%;
   -webkit-animation: Gradient 5s ease infinite;
--moz-animation: Gradient 5s ease infinite;
-animation: Gradient 5s ease infinite;
-display: flex;
-flex-direction: column;
-align-items: stretch;
-justify-content: space-evenly;
-overflow: hidden;
-position: relative;     
+  -moz-animation: Gradient 5s ease infinite;
+  animation: Gradient 5s ease infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  overflow: hidden;
+  position: relative;     
 }
 
 .animated-background::before, 
 .animated-background::after {
-content: "";
-width: 70vmax;
-height: 70vmax;
-position: absolute;
-background: rgba(255, 255, 255, 0.07);
-left: -20vmin;
-top: -20vmin;
-animation: morph 2s linear ease alternate, spin 2s ease linear;
-z-index: 1;
-will-change: border-radius, transform;
-transform-origin: 55% 55%;
-pointer-events: none; 
+  content: "";
+  width: 70vmax;
+  height: 70vmax;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.07);
+  left: -20vmin;
+  top: -20vmin;
+  animation: morph 2s linear ease alternate, spin 2s ease linear;
+  z-index: 1;
+  will-change: border-radius, transform;
+  transform-origin: 55% 55%;
+  pointer-events: none; 
 }
 
 .animated-background::after {

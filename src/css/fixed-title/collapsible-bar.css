@@ -1,5 +1,4 @@
 /* Sourced from: https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp*/
-
 .sidebar {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -62,9 +61,13 @@
     transition: margin-left .5s; /* If you want a transition effect */
     padding: 20px;
   }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  }
+
+
+/* For responsiveness: */
+@media only screen and (min-width: 600px) {
+  /* For Tablet: */
+}
+
+@media only screen and (min-width: 768px) {
+  /* For Phone: */
+}
