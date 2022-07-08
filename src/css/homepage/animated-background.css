@@ -5,9 +5,9 @@
   background: -webkit-linear-gradient(90deg, rgb(62, 69, 77) 9%, rgba(42,47,54,1) 53%, rgb(30, 34, 39) 100%);
   background: linear-gradient(90deg, rgb(62, 69, 77) 9%, rgba(42,47,54,1) 53%, rgb(30, 34, 39) 100%);
   background-size: 400% 400%;
-  -webkit-animation: Gradient 5s ease infinite;
-  -moz-animation: Gradient 5s ease infinite;
-  animation: Gradient 5s ease infinite;
+  -webkit-animation: Gradient 4s ease infinite;
+  -moz-animation: Gradient 4s ease infinite;
+  animation: Gradient 4s ease infinite;
   display: flex;
   flex-direction: column;
   align-items: stretch;
