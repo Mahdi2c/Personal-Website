@@ -7,7 +7,7 @@
     color: white;
     z-index: 100;
     display: inline-block; 
-    background-color: #2A2F36;
+    background-color: #2f343a;
     padding: 1.5%;
 }
 
@@ -17,7 +17,7 @@
     position: relative;
     left: 10%;
     float: left;
-    border: 10pt solid #2A2F36;   
+    border: 10pt solid #2f343a;   
     border-radius: 100%;   
 }
 

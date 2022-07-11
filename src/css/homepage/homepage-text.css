@@ -14,7 +14,7 @@
 }
 
 .hello-world{
-    font-size: 250%;
+    font-size: 230%;
     color: #84CE77;
 }
 
@@ -69,12 +69,28 @@
     height: 120px;
 }
 
-.me-image{
+.spongebob{
     position: relative;
     float: right;
     border-radius: 50px;
     left: -8%;
-    width: 30%;
+    width: 35%;
     height: auto;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
+
+.line{
+    display: block;
+    height: 100%;
+    width: 100px;
+    background: #32333A;
+    position: absolute;
+}
+
+.firstOverlayLine {
+    left: 59%;
+  }
+  
+.secondOverlayLine {
+    left: 83%;
+  }
