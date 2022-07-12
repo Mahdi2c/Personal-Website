@@ -63,11 +63,10 @@
   }
 
 
-/* For responsiveness: */
-@media only screen and (min-width: 600px) {
-  /* For Tablet: */
-}
-
-@media only screen and (min-width: 768px) {
-  /* For Phone: */
+/* Mobile and Tablet */
+@media (max-width: 768px) { 
+  .openbtn {
+    left: 3%;
+    padding: 6px;
+  }
 }

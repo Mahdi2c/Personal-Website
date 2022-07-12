@@ -26,3 +26,9 @@
     left: 5%;
     border-radius: 20px;
 }
+
+/* Mobile and Tablet */
+@media (max-width: 768px) { 
+    .footer{
+    }
+}

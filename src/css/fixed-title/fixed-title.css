@@ -51,11 +51,31 @@
     top: 20%;
 }
 
-/* For responsiveness: */
-@media only screen and (min-width: 2000px) {
-    /* For Tablets: */
-  }
+/* Mobile and Tablet */
+@media (max-width: 768px) { 
+    .fixed-title-icon{
+        width: 60px;
+        height: 60px;
+        left: 0%;
+    }
 
-  @media only screen and (min-width: 768px) {
-    /* For Phones: */
-  }
+    .fixed-title-line{
+        width: 50%; 
+        border: 2px solid #0a072e;
+        left: 30%;
+    }
+
+    .mahdi{
+        left: 5%;
+        font-size: 80%;
+    }
+    
+    .toussi{
+        font-size: 80%;
+        left: 5%;
+    }
+    .fixed-title{
+        padding: 7% 7% 0px 0px;
+    }
+}
+      

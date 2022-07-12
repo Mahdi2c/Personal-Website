@@ -94,3 +94,11 @@
 .secondOverlayLine {
     left: 83%;
   }
+
+  /* Mobile and Tablet */
+@media (max-width: 768px) { 
+    .spongebob{
+        width: 100%;
+        top: -20%;
+  }
+}
