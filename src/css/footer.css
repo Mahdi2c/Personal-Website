@@ -1,19 +1,18 @@
 .footer{
-    position: relative;
-    padding-left: 20%;
-    height: 20%;
-    top: 7%;
-    letter-spacing: 2px;
-    font-family: 'Inter', sans-serif;
-    font-size: 140%;
+	position: relative;
+    left: 15%;
+	width: 49%;
+    top: 5em;
+	height: auto;
     color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: calc(12px + 1.5 * ((75vw - 270px) / 576));
 }
 
 .footer-github-icon{
     width: 40px;
     height: 40px;
     position: relative;
-    margin-top: 90px;
     left: 5%;
     border-radius: 20px;
 }
@@ -22,7 +21,6 @@
     width: 40px;
     height: 40px;
     position: relative;
-    margin-top: 90px;
     left: 5%;
     border-radius: 20px;
 }
@@ -30,5 +28,16 @@
 /* Mobile and Tablet */
 @media (max-width: 768px) { 
     .footer{
+        position: relative;
+        top: 15em;
+        height: auto;
+    }   
+
+    .footer-github-icon{
+        margin-top: 20%;
+    }
+    
+    .footer-linkedin-icon{
+        margin-top: 20%;
     }
 }

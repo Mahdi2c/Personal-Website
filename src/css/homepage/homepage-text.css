@@ -14,30 +14,36 @@
 }
 
 .hello-world{
-    font-size: 230%;
+    font-size: calc(32px + 12 * ((200vw - 640px) / 1360));
     color: #84CE77;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
 .hello-world2{
-    font-size: 120%;
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
     color: white;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
 .intro1{
     margin-top: 20px;
-    font-size: 200%;
+    font-size: calc(24px + 9 * ((150vw - 480px) / 1020));
     width: 40%;
     color: white;
 }
 
 .intro2{
-    font-size: 170%;
+    font-size: calc(19.2px + 7.2 * ((120vw - 384px) / 816));
     margin-bottom: 15px;
     color: white;
 }
 
 .intro3{
-    font-size: 140%;
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
     width: 40%;
     color: white;
 }
@@ -88,11 +94,11 @@
 }
 
 .firstOverlayLine {
-    left: 59%;
+    left: 64%;
   }
   
 .secondOverlayLine {
-    left: 83%;
+    left: 79%;
   }
 
   /* Mobile and Tablet */
@@ -100,5 +106,41 @@
     .spongebob{
         width: 100%;
         top: -20%;
-  }
+    } 
+
+    .hello-world{
+        font-size: calc(32px + 12 * ((200vw - 640px) / 1360));
+        color: #84CE77;
+        width: 100%;
+    }
+
+    .hello-world2{
+        font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+        color: white;
+        width: 100%;
+    }
+
+    .intro1{
+        margin-top: 20px;
+        font-size: calc(24px + 9 * ((150vw - 480px) / 1020));
+        width: 100%;
+        color: white;
+    }
+
+    .intro2{
+        font-size: calc(19.2px + 7.2 * ((120vw - 384px) / 816));
+        margin-bottom: 15px;
+        color: white;
+        width: 100%;
+    }
+
+    .intro3{
+        font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+        width: 100%;
+        color: white;
+    }
+    
+    .line{
+        display: none;
+    }
 }
