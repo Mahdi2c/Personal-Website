@@ -1,0 +1,65 @@
+/* SOURCED FROM: https://getcssscan.com/css-buttons-examples */
+.cv-button{
+    left: 11%;
+    padding: 5% 10%;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.cv-button:before{
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #a4f5bf,
+      #9df5ba,
+      #90f5b2,
+      #83f2a8,
+      #79f2a2,
+      #6ef09a,
+      #63f294,
+      #58ed8b,
+      #4de882
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-cv-button 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+}
+
+@keyframes glowing-cv-button {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.cv-button:after{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+}

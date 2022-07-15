@@ -4,10 +4,14 @@
   <!-- Importing All CSS -->
   <link rel="stylesheet" href="../css/fixed-title/fixed-title.css">
   <link rel="stylesheet" href="../css/fixed-title/collapsible-bar.css"> 
-  <link rel="stylesheet" href="../css/skills/skills.css">
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/backgrounds.css">
   <link rel="stylesheet" href="../css/footer.css">
+
+  <!-- Importing All CSS SKILLS -->
+  <link rel="stylesheet" href="../css/skills/skills.css">
+  <link rel="stylesheet" href="../css/skills/skills-cv.css">
+  <link rel="stylesheet" href="../css/skills/skills-icons.css">
 
   <!-- Importing font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +23,8 @@
 
   <!-- Importing ALL js -->
   <script src="../js/collapsible-bar-script.js"></script>
+  
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
 <body class = "background-homepage">
@@ -45,50 +51,48 @@
 
   <!-- Skills text -->
 
-  <!-- SOURCED FROM: https://www.geeksforgeeks.org/how-to-create-a-progress-bar-animation-using-html-and-css/ */ -->
-  <div class="split left">
+  <!-- SOURCED FROM: https://alvarotrigo.com/blog/progress-bar-css/ */ -->
+  <div class="split right">
     <div class="centered">
-        <div class="progress-bar-container">
-            <h2>HTML</h2>
-            <div class="progress-bar">
-                <span class="percentage HTML"></span>
-            </div>
-        </div>
-
-        <div class="progress-bar-container">
-            <h2>CSS</h2>
-            <div class="progress-bar">
-                <span class="percentage CSS"></span>
-            </div>
-        </div>
-
-        <div class="progress-bar-container">
-            <h2>JavaScript</h2>
-            <div class="progress-bar">
-                <span class="percentage JavaScript"></span>
-            </div>
-        </div>
-
-        <div class="progress-bar-container">
-            <h2>PHP</h2>
-            <div class="progress-bar">
-                <span class="percentage PHP"></span>
-            </div>
-        </div>
-
-        <div class="progress-bar-container">
-          <h2>If you would like to see my projects - visit my <a class = "sidebar-green-text" 
-            target="_blank" href = "https://github.com/Mahdi2c">Github</a> and <a class = "sidebar-green-text" target="_blank" href = "Project.html">Projects</a> page</h2>
-        </div>
+      <div class="container">
+        <div class="container__progressbars">
+          <div class="progressbar">
+            <svg class="progressbar__svg">
+              <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
+            </svg>
+            <span class="progressbar__text shadow-html">HTML</span>
+          </div>
+      
+          <div class="progressbar">
+            <svg class="progressbar__svg">
+              <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-css shadow-css"> </circle>
+            </svg>
+            <span class="progressbar__text shadow-css">CSS</span>
+          </div>
+      
+          <div class="progressbar">
+            <svg class="progressbar__svg">
+              <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-js shadow-js"> </circle>
+            </svg>
+            <span class="progressbar__text shadow-js">Javascript</span>
+          </div>
+      
+          <div class="progressbar">
+            <svg class="progressbar__svg">
+              <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-php shadow-php"> </circle>
+            </svg>
+            <span class="progressbar__text shadow-php">PHP</span>
+          </div>    
+      </div>
     </div>
   </div>
 
-  <div class="split right">
+  <div class="split left">
     <div class="centered">
       <p class = "about-me-title">Contact me</p>
       <p class = "emails-text"> Email : <span class = "emails-sub">mahdi2c.professional@hotmail.com</span></p>
-      <p class = "website-text">Website : <span class = "website-sub">mahdi2c.com</span></p>
-      <a href="../../CV.jpg" download = "CV"><button class = "cv-button">Download my CV <i class="fa fa-download"></i></button></a>
+      <p class = "website-text">Website : <span class = "website-sub">www.mahdi2c.com</span></p>
+      <a href="https://github.com/Mahdi2c/Personal-Website/blob/main/CV.jpg" target="_blank" rel="noopener noreferrer" ><button class = "cv-button">Download my CV <i class="fa fa-download"></i></button></a>
     </div>
   </div>
 </body>

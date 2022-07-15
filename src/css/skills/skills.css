@@ -1,74 +1,3 @@
-.skills-text{
-    position: relative;
-    left: 15%;
-    top: 32%;
-    color: white;
-    width: 50%;
-}
-
-/* SOURCED FROM: https://www.geeksforgeeks.org/how-to-create-a-progress-bar-animation-using-html-and-css/ */
-
-/* Stylingthe last h2 tag by giving margin bottom */
-.progress-bar-container:not(:last-child) {
-    margin-bottom: 50px;
-}
- 
-/* Styling the h2 tag by giving color,
-letter spacing, font-size etc.*/
-.progress-bar-container h2 {
-    font-family: 'Inter', sans-serif;
-    color: #eee;
-    letter-spacing: 1px;
-    font-size: 20px;
-}
- 
-/* Styling the border and box
-effect of the progress bar*/
-.progress-bar {
-    width: 800px;
-    height: 5px;
-    margin-top: 10px;
-    border: 1px solid rgb(225, 233, 225);
-    
-    box-shadow: 0 0 10px #2e6d23;
-}
- 
-/* Stylingthe background color of each
-animation and border radius */
-.percentage {
-    display: block;
-    height: 100%;
-    background: rgb(208,233,204);
-    background: linear-gradient(90deg, rgba(208,233,204,1) 0%, rgba(154,201,146,1) 32%, rgba(89,249,61,1) 100%);
-    animation: progress 1500ms ease-in 1;
-}
- 
-/* Assigning width of each languages*/
-.HTML{
-    width: 95%;
-}
- 
-.CSS{
-    width: 80%;
-}
- 
-.JavaScript{
-    width: 75%;
-}
- 
-.PHP{
-    width: 70%;
-}
- 
-/* Animating the progress bar by
-initially starting from 0*/
-@keyframes progress {
-    from {
-        width: 0;
-    }
-}
-/* !!!!!!!!!!!!!!!!!!!!!!!!  */
-
 /* Split page */
 .split{
     height: 100%;
@@ -76,12 +5,11 @@ initially starting from 0*/
     position: fixed;
     z-index: 1;
     top: 0;
-    overflow-x: hidden;
     padding-top: 20px;
   }
   
   .left {
-    left: 5%;
+    left: 0;
   }
   
   .right {
@@ -124,69 +52,6 @@ initially starting from 0*/
     color: white; 
 }
 
-/* SOURCED FROM: https://getcssscan.com/css-buttons-examples */
-.cv-button{
-    left: 11%;
-    padding: 5% 10%;
-    border: none;
-    outline: none;
-    color: rgb(255, 255, 255);
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-}
-
-.cv-button:before{
-    content: "";
-    background: linear-gradient(
-      45deg,
-      #a4f5bf,
-      #9df5ba,
-      #90f5b2,
-      #83f2a8,
-      #79f2a2,
-      #6ef09a,
-      #63f294,
-      #58ed8b,
-      #4de882
-    );
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing-cv-button 20s linear infinite;
-    transition: opacity 0.3s ease-in-out;
-}
-
-@keyframes glowing-cv-button {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-
-.cv-button:after{
-    z-index: -1;
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #222;
-    left: 0;
-    top: 0;
+@media (max-width: 768px) { 
 }
 

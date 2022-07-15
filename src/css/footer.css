@@ -41,3 +41,19 @@
         margin-top: 20%;
     }
 }
+
+@media (max-width: 768px) { 
+    .footer{
+        position: relative;
+        top: 15em;
+        height: auto;
+    }   
+
+    .footer-github-icon{
+        margin-top: 20%;
+    }
+    
+    .footer-linkedin-icon{
+        margin-top: 20%;
+    }
+}
