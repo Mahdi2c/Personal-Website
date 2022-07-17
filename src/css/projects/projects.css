@@ -1,6 +1,14 @@
 div, p{
   box-sizing: border-box;
 }
+
+.project-title-text{                                         
+  text-transform: uppercase;
+  text-align: center; 
+  margin-top: 3%;
+  font-family: 'Inter', sans-serif;
+  font-size: calc(6px + 12 * ((25vw - 150px) / 200)); 
+}
 /* Create two equal columns that floats next to each other */
 
 
