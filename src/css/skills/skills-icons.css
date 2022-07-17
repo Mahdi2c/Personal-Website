@@ -55,13 +55,6 @@
     text-align: center;
   }
   
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
   .container__progressbars {
     display: flex;
     justify-content: space-around;
