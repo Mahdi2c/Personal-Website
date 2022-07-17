@@ -1,42 +1,45 @@
 /* Split page */
-.split{
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    padding-top: 20px;
+div,p,a,circle,svg{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  font-family: 'Inter', sans-serif;
+  font-size: calc(3px + 6 * ((12.5vw - 75) / 100));
+  margin-top: 10%;
+  float: left;
+  width: 50%;
+  padding: 100px;
+  height: 500px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
   }
-  
-  .left {
-    left: 0;
-  }
-  
-  .right {
-    right: 0;
-  }
-  
-  .centered {
-    font-family: 'Inter', sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #84CE77;;
-  }
+}
 
   /* !!!!!!!!!!!!!!!!!!!!!!!!  */
 
 .about-me-title{
     font-size: 250%;
     color: #84CE77;
-    padding-bottom: 20%;
+    padding-bottom: 100px;
     position: relative;
 }
 
 .emails-text{
     color: #84CE77;
-    padding-bottom: 10%;
+    padding-bottom: 30px;
 }
 
 .emails-sub{
@@ -45,7 +48,7 @@
 
 .website-text{
     color: #84CE77;
-    padding-bottom: 30%;
+    padding-bottom: 50px;
 }
 
 .website-sub{
