@@ -4,7 +4,7 @@
   width: 50%;
   padding: 10px;
   font-family: 'Inter', sans-serif;
-  font-size: calc(6px + 12 * ((25vw - 150px) / 200));
+  font-size: calc(10.5px + 7.5 * ((75vw - 577.5px) / 1536));
 } 
 
 .column-weather h1{
@@ -14,8 +14,9 @@
 .row-weather{
   position: relative;
   top: 20%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
   color: white;
 }
 
@@ -26,7 +27,7 @@
 }
 
 .weather-img{
-  width:40%;
+  width:20%;
   margin-bottom: 20px;
 }
 
@@ -34,21 +35,12 @@
 /* Mobile and Tablet */
 @media (max-width: 768px) { 
 .column-weather{
-    float: left;
-    width: 100%;
-    padding: 10px;
-    font-family: 'Inter', sans-serif;
-    font-size: calc(12px + 1.5 * ((75vw - 270px) / 576));
+  width: 100%;
   } 
-}
 
-/* Laptop and Desktops screens */
-@media (min-width: 769px) {
-  .column-weather{
-    float: left;
-    width: 50%;
-    padding: 10px;
-    font-family: 'Inter', sans-serif;
-    font-size: calc(10.5px + 7.5 * ((75vw - 577.5px) / 1536));
-  } 
+.row-weather{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  }
 }
