@@ -1,0 +1,50 @@
+/* tamagotchi application */
+.column-tamagotchi{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: calc(10.5px + 7.5 * ((75vw - 577.5px) / 1536));
+  } 
+  
+  .column-tamagotchi h1{
+    margin-bottom: 20px;
+  } 
+  
+  .row-tamagotchi{
+    position: relative;
+    top: 20%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .row-tamagotchi:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .tamagotchi-img{
+    width:70%;
+    margin-bottom: 20px;
+  }
+
+  .tamagotchi-img-2{
+    width:70%;
+    margin-bottom: 20px;
+  }
+  
+  /* Mobile and Tablet */
+  @media (max-width: 768px) { 
+  .column-tamagotchi{
+    width: 100%;
+    } 
+  
+  .row-tamagotchi{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    }
+  }

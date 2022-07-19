@@ -35,30 +35,37 @@ div, p{
 
 .project-skill-html{
   border-radius: 10%;
-  border: solid 2px #7dc770;
+  border: solid 2px #b3dbab;
   padding: 3px;
 }
 
 .project-skill-css{
   border-radius: 10%;
-  border: solid 2px #8acef0;
+  border: solid 2px #98e38a;
   padding: 3px;
 }
 
 .project-skill-js{
   border-radius: 10%;
-  border: solid 2px #f38686;
+  border: solid 2px #6ae653;
   padding: 3px;
 }
 
 .project-skill-php{
   border-radius: 10%;
-  border: solid 2px #eed07f;
+  border: solid 2px #25c906;
   padding: 3px;
 }
 
 .project-skill-api{
   border-radius: 10%;
-  border: solid 2px #ee8ece;
+  border: solid 2px #198704;
   padding: 3px;
 }
+
+.project-skill-java{
+  border-radius: 10%;
+  border: solid 2px #19570d;
+  padding: 3px;
+}
+
