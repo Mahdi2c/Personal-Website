@@ -1,15 +1,16 @@
 /* Sourced from: https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp*/
 .sidebar {
-    height: 100%; /* 100% Full-height */
+    height: auto; /* 100% Full-height */
+    padding-bottom: 20px;
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #32333A; /* Black*/
+    top: 1%;
+    right: 5px;
+    background-color: #2f343a;/* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    transition: 0.15s; /* 0.5 second transition effect to slide in the sidebar */
   }
 
   .sidebar-green-text{
@@ -20,15 +21,15 @@
   .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 120%;
     color: white;
     display: block;
-    transition: 0.3s; 
+    transition: 0.15s;
   }
   
   /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
-    color: #c2e6bc;
+    color: #84CE77;
   }
   
   /* Position and style the close button (top right corner) */
@@ -58,7 +59,7 @@
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
-    transition: margin-left .5s; /* If you want a transition effect */
+    transition: margin-left 0.15s; /* If you want a transition effect */
     padding: 20px;
   }
 
@@ -69,5 +70,10 @@
     left: -3%;
     top: -30%;
     font-size: 10px;
+  }
+
+  .sidebar a {
+    font-size: 90%;
+    padding: 8px 8px 8px 16px;
   }
 }

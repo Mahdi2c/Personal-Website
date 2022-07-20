@@ -12,6 +12,7 @@
 } 
 
 .row-kiyanpay{
+  background-color: #2f343a;
   position: relative;
   top: 20%;
   margin-left: 40px;
@@ -30,7 +31,6 @@
   width:72%;
   margin-bottom: 20px;
 }
-
 
 /* Mobile and Tablet */
 @media (max-width: 768px) { 

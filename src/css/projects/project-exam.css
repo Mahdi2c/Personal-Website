@@ -12,6 +12,8 @@
 } 
 
 .row-exam{
+  padding-top: 20px;
+  background-color: #2f343a;
   position: relative;
   top: 20%;
   margin-left: 40px;

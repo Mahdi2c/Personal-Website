@@ -69,3 +69,20 @@ div, p{
   padding: 3px;
 }
 
+.project-skill-sql{
+  border-radius: 10%;
+  border: solid 2px #80e66e;
+  padding: 3px;
+}
+
+.make-big{
+  font-size: 120%;
+}
+
+@media (max-width: 768px) { 
+  .project-git-img{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+  }
+  }
