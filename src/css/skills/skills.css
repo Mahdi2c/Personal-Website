@@ -4,14 +4,26 @@ div,p,a,circle,svg{
 }
 
 /* Create two equal columns that floats next to each other */
-.column {
+.column-contact{
   font-family: 'Inter', sans-serif;
   font-size: calc(3px + 6 * ((12.5vw - 75) / 100));
   margin-top: 10%;
   float: left;
-  width: 50%;
+  width: 55%;
   padding: 100px;
   height: 500px;
+  margin-left: 5%;
+}
+
+.column-skills{
+  font-family: 'Inter', sans-serif;
+  font-size: calc(3px + 6 * ((12.5vw - 75) / 100));
+  margin-top: 10%;
+  float: left;
+  width: 35%;
+  padding: 100px;
+  height: 500px;
+  margin-right: 5%;
 }
 
 /* Clear floats after the columns */

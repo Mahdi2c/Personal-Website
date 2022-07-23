@@ -10,8 +10,9 @@
 
   <!-- Importing All CSS SKILLS -->
   <link rel="stylesheet" href="../css/skills/skills.css">
-  <link rel="stylesheet" href="../css/skills/skills-cv.css">
+  <link rel="stylesheet" href="../css/skills/skills-button.css">
   <link rel="stylesheet" href="../css/skills/skills-icons.css">
+  <link rel="stylesheet" href="../css/skills/skills-contact-me.css">
 
   <!-- Importing font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +21,7 @@
 
   <!-- Importing ALL js -->
   <script src="../js/collapsible-bar-script.js"></script>
+  <script src="../js/contact-me.js"></script>
 
   <!-- Importing favicon icon -->
   <link rel="shortcut icon" type="image/jpg" href="../images/Frog-favicon.png"/>
@@ -51,14 +53,33 @@
 
   <!-- Skills text -->
   <div class="row">
-    <div class="column">
+    <div class="column-contact">
       <p class = "about-me-title">Contact me</p>
       <p class = "emails-text"> Email : <span class = "emails-sub">mahdi2c.professional@hotmail.com</span></p>
       <p class = "website-text">Website : <span class = "website-sub">mahdi2c.github.io/Personal-Website/</span></p>
-      <a href="https://github.com/Mahdi2c/Personal-Website/blob/main/CV.jpg" target="_blank" rel="noopener noreferrer" ><button class = "cv-button">View my CV</button></a>
+      <!-- Button that opens contact form -->
+      <div>
+        <button class="cv-button" onclick="openForm()">Contact me</button>
+          <div class="form-popup" id="myForm">
+            <form action="mailto:mahdi-website@hotmail.com"
+                  method="POST"
+                  enctype="multipart/form-data"
+                  name="EmailForm"
+                  class="form-container">
+              <label for="name"><b>Name</b></label>
+              <input type="text" placeholder="Enter your name" name="Contact-Name: " required>
+
+              <label for="message"><b>Message</b></label>
+              <input type="text" placeholder="Enter your message" name="Contact-Message: " required>
+
+              <button type="submit" class="btn">Send</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">&times;</button>
+            </form>
+          </div>
+      </div>
     </div>
     <!-- SOURCED FROM: https://alvarotrigo.com/blog/progress-bar-css/ */ -->
-    <div class="column">
+    <div class="column-skills">
       <div class="container__progressbars">
         <div class="progressbar">
           <svg class="progressbar__svg">

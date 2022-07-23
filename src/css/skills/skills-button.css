@@ -1,7 +1,9 @@
 /* SOURCED FROM: https://getcssscan.com/css-buttons-examples */
 .cv-button{
     left: 11%;
-    padding: 20px 20px;
+    font-weight: bold;
+    padding: 15px 15px;
+    min-width: 120px;
     border: none;
     outline: none;
     color: rgb(255, 255, 255);
