@@ -50,10 +50,12 @@
   margin: 5px 0 22px 0;
   border: none;
   background: #f1f1f1;
+  font-family: 'Inter', sans-serif;
 }
 
 /* When the inputs get focus, do something */
 .form-container textarea:focus{
+  font-family: 'Inter', sans-serif;
   background-color: rgb(199, 196, 196);
   outline: none;
 }

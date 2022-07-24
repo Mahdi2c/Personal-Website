@@ -5,10 +5,15 @@ div, p{
 .project-title-text{                                         
   text-transform: uppercase;
   text-align: center; 
-  margin-top: 3%;
+  margin-top: 9%;
+  color: white;
+  background: #2f343a;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-left: 40px;
+  margin-right: 40px;
   font-family: 'Inter', sans-serif;
   font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-  margin-bottom: 50px;
 }
 /* Create two equal columns that floats next to each other */
 
@@ -84,5 +89,9 @@ div, p{
     width: 20px;
     height: 20px;
     border-radius: 20px;
+  }
+
+  .project-title-text{                                         
+    margin-top: 30%;
   }
   }
