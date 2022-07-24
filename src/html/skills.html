@@ -61,35 +61,20 @@
       <div>
         <button class="cv-button" onclick="openForm()">Contact me</button>
           <div class="form-popup" id="myForm">
-            <form id="fcf-form-id" method="post" action="../php/send-message.php" class="form-container">
-              <!-- Enter name -->
-              <label for="Name" ><b>Name</b></label>
-              <input input type="text" id="Name" name="Name"  placeholder="Enter your name" required>
+            <form class = "form-container" action="http://formspree.io/mahdi-website@hotmail.com" method="post">
+              
+              <label for="message"><b>Email</b></label>
+              <input type="email" name="_replyto" placeholder="Enter your message"required>
 
-              <!-- Enter email -->
-              <label for="Email" ><b>Email</b></label>
-              <input type="email" id="Email" name="Email" placeholder="Enter your name" required>
-
-              <!-- Enter message -->
-              <label for="Message"><b>Message</b></label>
-              <input type="text" placeholder="Enter your message" name="Contact-Message: " required>
-
-              <button type="submit" id="fcf-button" class="btn">Send</button>
+              <label for="name"><b>Message</b></label>
+              <input type="text" name="name" placeholder="Enter your name" required>
 
 
-
-
-
-
-
-
-
-
-
-
-
+              <input type="submit" value="Send" class="btn"></button>
               <button type="button" class="btn cancel" onclick="closeForm()">&times;</button>
             </form>
+
+
           </div>
       </div>
     </div>

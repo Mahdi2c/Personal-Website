@@ -30,6 +30,20 @@
   outline: none;
 }
 
+.form-container input[type=email], .form-container input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=email]:focus, .form-container input[type=email]:focus {
+  background-color: rgb(199, 196, 196);
+  outline: none;
+}
+
 /* Set a style for the submit/login button */
 .form-container .btn {
   background-color: #6faf64;
