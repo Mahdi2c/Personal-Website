@@ -10,9 +10,10 @@ div,p,a,circle,svg{
   margin-top: 10%;
   float: left;
   width: 55%;
-  padding: 100px;
+  padding-top: 100px;
   height: 500px;
-  margin-left: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .column-skills{
@@ -20,10 +21,10 @@ div,p,a,circle,svg{
   font-size: calc(3px + 6 * ((12.5vw - 75) / 100));
   margin-top: 10%;
   float: left;
+  padding-top: 100px;
   width: 35%;
-  padding: 100px;
   height: 500px;
-  margin-right: 5%;
+
 }
 
 /* Clear floats after the columns */
