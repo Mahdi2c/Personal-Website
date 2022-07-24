@@ -61,20 +61,21 @@
       <div>
         <button class="cv-button" onclick="openForm()">Contact me</button>
           <div class="form-popup" id="myForm">
-            <form class = "form-container" action="https://formspree.io/mahdi-website@hotmail.com" method="post">
+            <form class = "form-container" action="https://formspree.io/f/xyyorbqr" method="post">
               
-              <label for="message"><b>Email</b></label>
-              <input type="email" name="_replyto" placeholder="Enter your message"required>
+              <!-- Enter email -->
+              <label for="message"><b>Email</b>
+              <input type="email" name="email" placeholder="Enter your message"required>
+              </label>
 
-              <label for="name"><b>Message</b></label>
-              <input type="text" name="name" placeholder="Enter your name" required>
+              <!-- Enter message -->
+              <label for="name"><b>Message</b>
+              <textarea type="text" name="name" placeholder="Enter your name" required> </textarea>
+              </label>
 
-
-              <input type="submit" value="Send" class="btn"></button>
+              <input type="submit" class="btn"></button>
               <button type="button" class="btn cancel" onclick="closeForm()">&times;</button>
             </form>
-
-
           </div>
       </div>
     </div>
