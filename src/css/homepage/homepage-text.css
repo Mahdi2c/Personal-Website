@@ -11,10 +11,11 @@
 
 .green{
     color: #84CE77;
+    font-weight: 600;
 }
 
 .hello-world{
-    font-weight: 300;
+    font-weight: 500;
     font-size: calc(32px + 12 * ((200vw - 640px) / 1360));
     color: #84CE77;
     word-wrap: break-word;

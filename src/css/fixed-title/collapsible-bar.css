@@ -12,6 +12,7 @@
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.15s; /* 0.5 second transition effect to slide in the sidebar */
     font-weight: 300;
+    text-transform: uppercase;
   }
 
   .sidebar-green-text{
@@ -22,11 +23,12 @@
   .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 110%;
     color: white;
     display: block;
     transition: 0.15s;
     font-weight: 300;
+    text-transform: uppercase;
   }
   
   /* When you mouse over the navigation links, change their color */

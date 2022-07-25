@@ -53,25 +53,31 @@ div,p,a,circle,svg{
     font-size: 250%;
     color: #84CE77;
     padding-bottom: 100px;
+    font-weight: 500;
     position: relative;
 }
 
 .emails-text{
     color: #84CE77;
     padding-bottom: 30px;
+    font-weight: 500;
 }
 
 .emails-sub{
     color: white;
+    font-weight: 300;
 }
 
 .website-text{
     color: #84CE77;
     padding-bottom: 50px;
+    font-weight: 500;
+    
 }
 
 .website-sub{
     color: white; 
+    font-weight: 300;
 }
 
 @media (max-width: 768px) { 

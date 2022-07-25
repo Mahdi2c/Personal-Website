@@ -20,14 +20,14 @@
 }
 
 .big-name-mahdi{
-    font-weight: 300;
+    font-weight: 500;
     font-size: 500%;
     padding-bottom: 5%;
     color: #84CE77;
 }
 
 .big-name-toussi{
-    font-weight: 300;
+    font-weight: 200;
     font-size: 500%;
     padding-bottom: 5%;
 }
@@ -39,4 +39,5 @@
 .big-info-2{
     font-size: 200%;
     color: #84CE77; 
+    font-weight: 600;
 }
