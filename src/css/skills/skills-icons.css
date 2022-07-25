@@ -136,23 +136,23 @@
   
   @-webkit-keyframes anim_circle-html {
     to {
-      stroke-dashoffset: 22;
+      stroke-dashoffset: 60;
     }
   }
   
   @keyframes anim_circle-html {
     to {
-      stroke-dashoffset: 22;
+      stroke-dashoffset: 60;
     }
   }
   @-webkit-keyframes anim_circle-css {
     to {
-      stroke-dashoffset: 66;
+      stroke-dashoffset: 76;
     }
   }
   @keyframes anim_circle-css {
     to {
-      stroke-dashoffset: 66;
+      stroke-dashoffset: 76;
     }
   }
   @-webkit-keyframes anim_circle-php {

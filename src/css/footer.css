@@ -4,6 +4,7 @@
 	width: 49%;
     top: 5em;
 	height: auto;
+    font-weight: 500;
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: calc(12px + 1.5 * ((75vw - 270px) / 576));

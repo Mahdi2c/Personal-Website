@@ -14,6 +14,7 @@
 }
 
 .hello-world{
+    font-weight: 300;
     font-size: calc(32px + 12 * ((200vw - 640px) / 1360));
     color: #84CE77;
     word-wrap: break-word;
@@ -22,6 +23,7 @@
 }
 
 .hello-world2{
+    font-weight: 300;
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
     color: white;
     word-wrap: break-word;
@@ -30,6 +32,7 @@
 }
 
 .intro1{
+    font-weight: 300;
     margin-top: 20px;
     font-size: calc(24px + 9 * ((150vw - 480px) / 1020));
     width: 40%;
@@ -37,12 +40,14 @@
 }
 
 .intro2{
+    font-weight: 300;
     font-size: calc(19.2px + 7.2 * ((120vw - 384px) / 816));
     margin-bottom: 15px;
     color: white;
 }
 
 .intro3{
+    font-weight: 300;
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
     width: 40%;
     color: white;

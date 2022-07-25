@@ -3,6 +3,7 @@
     height: 100%;
     width: 100%;
     margin: 0 auto;
+    font-weight: 300;
     background-color: white;
     text-align: center;
     letter-spacing: 8px;
@@ -19,12 +20,14 @@
 }
 
 .big-name-mahdi{
+    font-weight: 300;
     font-size: 500%;
     padding-bottom: 5%;
     color: #84CE77;
 }
 
 .big-name-toussi{
+    font-weight: 300;
     font-size: 500%;
     padding-bottom: 5%;
 }
