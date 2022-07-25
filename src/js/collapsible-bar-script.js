@@ -3,8 +3,8 @@ function openNav()
 {
   var mq = window.matchMedia( "(max-width: 768px)" );
   if (mq.matches) {
-    document.getElementById("mySidebar").style.width = "120px";
-    document.getElementById("main").style.marginLeft = "120px";
+    document.getElementById("mySidebar").style.width = "145px";
+    document.getElementById("main").style.marginLeft = "145px";
   }
   else {
     document.getElementById("mySidebar").style.width = "225px";
