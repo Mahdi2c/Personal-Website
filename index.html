@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="src/css/homepage/animated-background.css">
   <link rel="stylesheet" href="src/css/footer.css">
   <link rel="stylesheet" href="src/css/homepage/homepage-title.css">
+  <link rel="stylesheet" href="src/css/page-transition-style.css">
 
   <!-- Importing font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- Importing ALL js -->
+  <script src="src/js/page-navigation.js"></script>
   <script src="src/js/homepage-type.js"></script>
   <script src="src/js/collapsible-bar-script.js"></script>
 
@@ -35,17 +37,17 @@
       <!-- Collapsible bar sourced from: https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp --> 
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a style = "color:#84CE77;" href="index.html"><span class = "sidebar-green-text">H</span>ome</a>
-        <a href="src/html/skills.html"><span class = "sidebar-green-text">C</span>ontact</a>
-        <a href="src/html/project.html"><span class = "sidebar-green-text">P</span>rojects</a>
+        <a href = "index.html" class = "green-transition"><span class= "green">H</span><span>ome</span></a>
+        <a><span class= "green" onclick="transitionToPage('src/html/skills.html')">C</span><span onclick="transitionToPage('src/html/skills.html')">ontact</span></a>
+        <a><span class= "green" onclick="transitionToPage('src/html/project.html')">P</span><span onclick="transitionToPage('src/html/project.html')">roject</span></a>
       </div>
       <div id="main">
         <button class="openbtn" onclick="openNav()">&#9776;</button>
       </div>
     </div>
       <div class = "mahdi-icon-wrap">
-        <a href = "index.html"><img class = "fixed-title-icon" src="src/images/Frog.png" alt="Cool Frog"></a>
-        <a href = "index.html"><span class = "mahdi">MAHDI</span> <span class = "toussi">TOUSSI</span></a>
+        <a href = "index.html"><img class = "fixed-title-icon" src="src/images/Frog.png" alt="Cool Frog"></span></a>
+        <a href = "index.html" ><span class = "mahdi">MAHDI</span> <span class = "toussi">TOUSSI</span></a>
       </div>
     <hr class = "fixed-title-line">
   </div>

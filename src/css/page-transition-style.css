@@ -1,0 +1,15 @@
+body { 
+    opacity: 0;
+    transition: opacity 0.5s;
+    transition-timing-function: ease-out;
+ }
+
+ .green-transition{
+    color: #84CE77 !important;
+    cursor: pointer;
+    font-weight: 600 !important;
+ }
+
+.cursor-pointer{
+   cursor: pointer;
+}
