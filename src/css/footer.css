@@ -46,7 +46,7 @@
 @media (max-width: 768px) { 
     .footer{
         position: relative;
-        top: 1em;
+        top: 10em;
         height: auto;
     }   
 
