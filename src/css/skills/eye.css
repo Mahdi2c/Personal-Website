@@ -4,6 +4,7 @@
   border-radius: 100%;
   position: relative;
   background: white;
+  border: 3pt solid black;
 }
 .eye-ball{
   width: 40px;
@@ -13,7 +14,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  background:#222c22;
+  background:black;
 }
 
   /* Mobile and Tablet */
