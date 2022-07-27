@@ -15,7 +15,8 @@
   <link rel="stylesheet" href="../css/skills/skills-button.css">
   <link rel="stylesheet" href="../css/skills/skills-icons.css">
   <link rel="stylesheet" href="../css/skills/skills-contact-me.css">
-
+  <link rel="stylesheet" href="../css/skills/skills-about-me.css">
+  <link rel="stylesheet" href="../css/skills/eye.css">
   <!-- Importing font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,10 +57,29 @@
     <hr class = "fixed-title-line">
   </div>
 
+  <!-- About me-->
+  <div class = "about-me-container">
+    <div class = "about-me-left">
+      <div class="eye-white">
+        <div class="eye-ball"></div>
+      </div>
+    </div>
+    <div class = "about-me-right">
+      <div class="eye-white">
+        <div class="eye-ball"></div>
+      </div>
+    </div>
+    <h1 class = "skills-title">About Me</h1>
+    <p class = "about-me-text"><span class = "green-about-me">INTRO();</span> I enjoy coding websites as it allows you to be as creative as you like! </p><br><br><br>
+    <p class = "about-me-text"><span class = "green-about-me">STATUS();</span> 3rd year computer scientist</p><br><br><br>
+    <p class = "about-me-text"><span class = "green-about-me">WORK();</span> Web development</p><br><br><br> 
+    <p class = "about-me-text"><span class = "green-about-me">HOBBIES();</span> Video games, Violin, Learning languages</p><br><br><br>
+  </div>
+
   <!-- Skills text -->
   <div class="row">
     <div class="column-contact">
-      <p class = "about-me-title">Contact me</p>
+      <p class = "skills-title">Contact me</p>
       <p class = "emails-text"> Email : <span class = "emails-sub">mahdi2c.professional@hotmail.com</span></p>
       <p class = "website-text">Website : <span class = "website-sub">mahdi2c.github.io/Personal-Website/</span></p>
       <!-- Button that opens contact form -->
@@ -86,6 +106,7 @@
     </div>
     <!-- SOURCED FROM: https://alvarotrigo.com/blog/progress-bar-css/ */ -->
     <div class="column-skills">
+      <p class = "skills-title">Skills</p>
       <div class="container__progressbars">
         <div class="progressbar">
           <svg class="progressbar__svg">
@@ -119,3 +140,20 @@
   </div>
 </body>
 </html>
+
+ <!--  Sourced from: https://www.howtocodeschool.com/2020/10/mouse-following-eyes-using-css-and-javascript.html -->
+<script>
+  var  eye = document.getElementsByClassName("eye-ball");
+  document.onmousemove = function(){
+  var width = window.innerWidth;
+  var x = event.clientX;
+  var a = x / width;
+  a= a *100;
+  var height = window.innerHeight;
+  var y = event.clientY;
+  var b = y / height;
+  b= b *100;
+  eye[0].style.cssText = "left: " + a + "%; top: " + b + "%;" + "transform:translate(-"+a+"%,-"+b+"%)";
+  eye[1].style.cssText = "left: " + a + "%; top: " + b + "%;" + "transform:translate(-"+a+"%,-"+b+"%)"; 
+  }
+  </script>

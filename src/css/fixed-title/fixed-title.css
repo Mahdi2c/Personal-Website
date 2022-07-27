@@ -24,9 +24,10 @@
 
 .fixed-title-line{
     width: 60%; 
-    border: 2px solid #8db688;
+    border: 1px solid #8db688;
     position: absolute;
     top: 50%;
+    border-radius: 50px;
     left: 20%;
 }
 
@@ -34,7 +35,7 @@
     position: relative;
     left: 20%;
     color: #84CE77;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .toussi{

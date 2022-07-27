@@ -4,7 +4,7 @@
 	width: 49%;
     top: 5em;
 	height: auto;
-    font-weight: 500;
+    font-weight: 700;
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: calc(12px + 1.5 * ((75vw - 270px) / 576));
@@ -46,7 +46,7 @@
 @media (max-width: 768px) { 
     .footer{
         position: relative;
-        top: 15em;
+        top: 1em;
         height: auto;
     }   
 

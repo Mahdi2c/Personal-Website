@@ -7,26 +7,29 @@ div,p,a,circle,svg{
 .column-contact{
   font-family: 'Inter', sans-serif;
   font-size: calc(3px + 6 * ((12.5vw - 75) / 100));
-  margin-top: 10%;
   float: left;
   width: 55%;
-  padding-top: 100px;
+  padding-top: 50px;
   height: 500px;
-  padding-left: 12%;
+  padding-left: 6%;
   padding-right: 5%;
   font-weight: 300;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 .column-skills{
   font-family: 'Inter', sans-serif;
   font-size: calc(3px + 6 * ((12.5vw - 75) / 100));
-  margin-top: 10%;
   float: left;
   padding-top: 50px;
   width: 35%;
   height: 500px;
   max-width: 605px;
   font-weight: 300;
+  letter-spacing: 1px;
+  position: relative;
 }
 
 /* Clear floats after the columns */
@@ -49,11 +52,12 @@ div,p,a,circle,svg{
 
   /* !!!!!!!!!!!!!!!!!!!!!!!!  */
 
-.about-me-title{
-    font-size: 250%;
+.skills-title{
+    text-align: center;
+    font-size: 300%;
     color: #84CE77;
     padding-bottom: 100px;
-    font-weight: 500;
+    font-weight: 800;
     position: relative;
 }
 
@@ -81,5 +85,8 @@ div,p,a,circle,svg{
 }
 
 @media (max-width: 768px) { 
+  .skills-title{
+    padding-bottom: 50px;
+}
 }
 

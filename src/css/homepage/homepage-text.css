@@ -10,12 +10,12 @@
 }
 
 .green{
-    color: #84CE77;
-    font-weight: 600;
+    color: #84CE77 !important;
+    font-weight: 800 !important;
 }
 
 .hello-world{
-    font-weight: 500;
+    font-weight: 700;
     font-size: calc(32px + 12 * ((200vw - 640px) / 1360));
     color: #84CE77;
     word-wrap: break-word;
@@ -118,12 +118,14 @@
         font-size: calc(32px + 12 * ((200vw - 640px) / 1360));
         color: #84CE77;
         width: 100%;
+        margin-right: 50px;
     }
 
     .hello-world2{
         font-size: calc(16px + 6 * ((100vw - 320px) / 680));
         color: white;
         width: 100%;
+        margin-right: 50px;
     }
 
     .intro1{
@@ -131,6 +133,7 @@
         font-size: calc(24px + 9 * ((150vw - 480px) / 1020));
         width: 100%;
         color: white;
+        margin-right: 50px;
     }
 
     .intro2{
@@ -138,12 +141,14 @@
         margin-bottom: 15px;
         color: white;
         width: 100%;
+        margin-right: 50px;
     }
 
     .intro3{
         font-size: calc(16px + 6 * ((100vw - 320px) / 680));
         width: 100%;
         color: white;
+        margin-right: 50px;
     }
     
     .line{
