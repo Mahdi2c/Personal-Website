@@ -30,6 +30,7 @@ div,p,a,circle,svg{
   font-weight: 300;
   letter-spacing: 1px;
   position: relative;
+  margin-bottom: 300px;
 }
 
 /* Clear floats after the columns */
@@ -39,16 +40,6 @@ div,p,a,circle,svg{
   clear: both;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column-contact{
-    width: 100%;
-  }
-
-  .column-skills{
-    width: 100%;
-  }
-}
 
   /* !!!!!!!!!!!!!!!!!!!!!!!!  */
 
@@ -87,6 +78,16 @@ div,p,a,circle,svg{
 @media (max-width: 768px) { 
   .skills-title{
     padding-bottom: 50px;
+}
+
+.column-contact{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.column-skills{
+  width: 100%;
 }
 }
 
