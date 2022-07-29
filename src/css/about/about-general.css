@@ -43,17 +43,17 @@ div,p,a,circle,svg{
 
   /* !!!!!!!!!!!!!!!!!!!!!!!!  */
 
-.skills-title{
+.about-page-big-titles{
     text-align: center;
     font-size: 300%;
-    color: #84CE77;
+    color: #615144;
     padding-bottom: 100px;
     font-weight: 800;
     position: relative;
 }
 
 .emails-text{
-    color: #84CE77;
+    color: #615144;
     padding-bottom: 30px;
     font-weight: 500;
 }
@@ -64,7 +64,7 @@ div,p,a,circle,svg{
 }
 
 .website-text{
-    color: #84CE77;
+    color: #615144;
     padding-bottom: 50px;
     font-weight: 500;
     

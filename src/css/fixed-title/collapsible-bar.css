@@ -7,17 +7,13 @@
     z-index: 1; /* Stay on top */
     top: 1%;
     right: 5px;
-    background-color: #2f343a;/* Black*/
+    background-color: #72624d;/* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px; /* Place content 20px from the top */
     transition: 0.15s; /* 0.15 second transition effect to slide in the sidebar */
     font-weight: 300;
     text-transform: uppercase;
     border-radius: 20px;
-  }
-
-  .sidebar-green-text{
-    color: #84CE77;
   }
 
   /* The sidebar links */
@@ -34,7 +30,7 @@
   
   /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
-    color: #84CE77;
+    color: #ff9c08;
     font-weight: 600;
   }
   
@@ -52,7 +48,7 @@
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
+    background-color: rgb(95, 72, 41);
     color: white;
     padding: 10px 15px;
     border: none;
@@ -63,7 +59,7 @@
   }
   
   .openbtn:hover {
-    background-color: #444;
+    background-color: rgb(78, 58, 31);
     font-weight: 300;
   }
   

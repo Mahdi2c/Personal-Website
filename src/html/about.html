@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Skills</title>
+  <title>About</title>
   <!-- Importing All CSS -->
   <link rel="stylesheet" href="../css/fixed-title/fixed-title.css">
   <link rel="stylesheet" href="../css/fixed-title/collapsible-bar.css"> 
@@ -8,15 +8,15 @@
   <link rel="stylesheet" href="../css/backgrounds.css">
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/page-transition-style.css">
-  <link rel="stylesheet" href="../css/homepage/homepage-text.css">
+  <link rel="stylesheet" href="../css/about/about-me-intro.css">
 
   <!-- Importing All CSS SKILLS -->
-  <link rel="stylesheet" href="../css/skills/skills.css">
-  <link rel="stylesheet" href="../css/skills/skills-button.css">
-  <link rel="stylesheet" href="../css/skills/skills-icons.css">
-  <link rel="stylesheet" href="../css/skills/skills-contact-me.css">
-  <link rel="stylesheet" href="../css/skills/skills-about-me.css">
-  <link rel="stylesheet" href="../css/skills/eye.css">
+  <link rel="stylesheet" href="../css/about/about-general.css">
+  <link rel="stylesheet" href="../css/about/skills-button.css">
+  <link rel="stylesheet" href="../css/about/skills-icons.css">
+  <link rel="stylesheet" href="../css/about/skills-contact-me.css">
+  <link rel="stylesheet" href="../css/about/about-me-main.css">
+  <link rel="stylesheet" href="../css/about/eye.css">
   <!-- Importing font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,6 +26,7 @@
 
   <!-- Importing ALL js -->
   <script src="../js/collapsible-bar-script.js"></script>
+  <script src="../js/about-page-effect.js"></script>
   <script src="../js/page-navigation.js"></script>
   <script src="../js/contact-me.js"></script>
 
@@ -37,13 +38,13 @@
 
 <body class = "background-homepage">
   <!-- Fixed title -->
-  <div class = "fixed-title">
+  <div class = "fixed-title"> 
     <div class = "HSPR">
       <!-- Collapsible bar sourced from: https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp --> 
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a class = "cursor-pointer"><span class= "green" onclick="transitionToPage('../../index.html')">H</span><span onclick="transitionToPage('../../index.html')">ome</span></a>
-        <a class = "cursor-pointer" href = "skills.html" class = "green-transition"><span class= "green">C</span><span>ontact</span></a>
+        <a class = "cursor-pointer" href = "../../index.html" class = "green-transition"><span>H</span><span>ome</span></a>
+        <a class = "cursor-pointer"><span class= "green" onclick="transitionToPage('about.html')">A</span><span onclick="transitionToPage('about.html')">bout</span></a>
         <a class = "cursor-pointer"><span class= "green" onclick="transitionToPage('project.html')">P</span><span onclick="transitionToPage('project.html')">roject</span></a>
       </div>
       <div id="main">
@@ -51,10 +52,26 @@
       </div>
     </div>
       <div class = "mahdi-icon-wrap">
-        <a class = "cursor-pointer"><span onclick="transitionToPage('../../index.html')"><img class = "fixed-title-icon" src="../images/Frog.png" alt="Cool Frog"></span></a>
-        <a class = "cursor-pointer"><span onclick="transitionToPage('../../index.html')" class = "mahdi">MAHDI</span> <span onclick="transitionToPage('../../index.html')" class = "toussi">TOUSSI</span></a>
+        <a href = "../../index.html"><img class = "fixed-title-icon"/></a>
+        <a href = "../../index.html" ><span class = "mahdi">MAHDI</span> <span class = "toussi">TOUSSI</span></a>
       </div>
     <hr class = "fixed-title-line">
+  </div>
+
+  <!-- Homepage text -->
+  <div class = "about-intro-main-container">
+    <div class = "about-intro-sub-container">
+      <span class="line firstOverlayLine"></span>
+      <span class="line secondOverlayLine"></span>
+      <img class = "spongebob" src="../images/Spongebob.gif" alt="Me">
+      <!-- Animation Sourced from: https://css-tricks.com/snippets/css/typewriter-effect/ -->
+      <span class = "hello-world2"> &lt;header&gt; 
+      <a class="typewrite hello-world" data-period="2000" data-type='[ "Hello World" , "Welcome to my website" , "BOO!"]'></a> 
+      &lt;/header&gt; </span>
+      <p class = "intro1">I'm <span class = "brown">Mahdi</span> Toussi</p>
+      <p class = "intro2">Aspiring Full-Stack developer</p>
+      <p class = "intro3">My ultimate goal is to create websites that are <span class = "brown">fast</span>, <span class = "brown">responsive</span> and look <span class = "brown">professional!</span></p>
+    </div>
   </div>
 
   <!-- About me-->
@@ -69,19 +86,19 @@
         <div class="eye-ball"></div>
       </div>
     </div>
-    <h1 class = "skills-title">About Me</h1>
-    <p class = "about-me-text"><span class = "green-about-me">INTRO(Short);</span> Mahdi a London-based web developer with experience in both front-end and back-end web developement</p><br><br><br>
-    <p class = "about-me-text"><span class = "green-about-me">STATUS();</span> 3rd year computer scientist</p><br><br><br>
-    <p class = "about-me-text"><span class = "green-about-me">WORKING-ON(Current);</span> Travel website</p><br><br><br>
-    <p class = "about-me-text"><span class = "green-about-me">FIELD(Work);</span> Full stack developmer</p><br><br><br> 
-    <p class = "about-me-text"><span class = "green-about-me">HOBBIES();</span> Video games, Violin, Learning languages, Badminton</p><br><br><br>
-    <a href = "#CONTACT" class = "about-me-text"><span class = "green-about-me">CONTACT?();</span> <span style = "text-decoration: underline;"> Click me!</span> </a><br><br><br>
+    <h1 class = "about-page-big-titles">About Me</h1>
+    <p class = "about-me-text"><span class = "brown-about-me">INTRO(Short);</span> Mahdi a London-based web developer with experience in both front-end and back-end web developement</p><br><br><br>
+    <p class = "about-me-text"><span class = "brown-about-me">STATUS();</span> 3rd year computer scientist</p><br><br><br>
+    <p class = "about-me-text"><span class = "brown-about-me">WORKING-ON(Current);</span> Travel website</p><br><br><br>
+    <p class = "about-me-text"><span class = "brown-about-me">FIELD(Work);</span> Full stack developmer</p><br><br><br> 
+    <p class = "about-me-text"><span class = "brown-about-me">HOBBIES();</span> Video games, Violin, Learning languages, Badminton</p><br><br><br>
+    <a href = "#CONTACT" class = "about-me-text"><span class = "brown-about-me">CONTACT?();</span> <span style = "text-decoration: underline;"> Click me!</span> </a><br><br><br>
   </div>
 
   <!-- Skills text -->
   <div class="row">
     <div class="column-contact" id = "CONTACT">
-      <p class = "skills-title">Contact&shy; me</p>
+      <p class = "about-page-big-titles">Contact&shy; me</p>
       <p class = "emails-text"> Email : <span class = "emails-sub">mahdi2c.professional&shy;@hotmail.com</span></p>
       <p class = "website-text">Website : <span class = "website-sub">mahdi2c.github.io/Personal-Website/</span></p>
       <!-- Button that opens contact form -->
@@ -108,7 +125,7 @@
     </div>
     <!-- SOURCED FROM: https://alvarotrigo.com/blog/progress-bar-css/ */ -->
     <div class="column-skills">
-      <p class = "skills-title">Skills</p>
+      <p class = "about-page-big-titles">Skills</p>
       <div class="container__progressbars">
         <div class="progressbar">
           <svg class="progressbar__svg">

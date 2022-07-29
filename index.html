@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="src/css/homepage/homepage-text.css">
   <link rel="stylesheet" href="src/css/reset.css">
   <link rel="stylesheet" href="src/css/backgrounds.css">
-  <link rel="stylesheet" href="src/css/homepage/animated-background.css">
-  <link rel="stylesheet" href="src/css/footer.css">
+  <link rel="stylesheet" href="src/css/homepage/homepage-background.css">
   <link rel="stylesheet" href="src/css/homepage/homepage-title.css">
   <link rel="stylesheet" href="src/css/homepage/homepage-animated-table.css ">
   <link rel="stylesheet" href="src/css/page-transition-style.css">
@@ -20,10 +19,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900;1000&display=swap" rel="stylesheet">
 
   <!-- Importing ALL js -->
   <script src="src/js/page-navigation.js"></script>
-  <script src="src/js/homepage-type.js"></script>
   <script src="src/js/collapsible-bar-script.js"></script>
 
   <!-- Importing favicon icon -->
@@ -39,8 +38,8 @@
       <!-- Collapsible bar sourced from: https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp --> 
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a class = "cursor-pointer" href = "index.html" class = "green-transition"><span class= "green">H</span><span>ome</span></a>
-        <a class = "cursor-pointer"><span class= "green" onclick="transitionToPage('src/html/skills.html')">C</span><span onclick="transitionToPage('src/html/skills.html')">ontact</span></a>
+        <a class = "cursor-pointer" href = "index.html" class = "green-transition"><span>H</span><span>ome</span></a>
+        <a class = "cursor-pointer"><span class= "green" onclick="transitionToPage('src/html/about.html')">A</span><span onclick="transitionToPage('src/html/about.html')">bout</span></a>
         <a class = "cursor-pointer"><span class= "green" onclick="transitionToPage('src/html/project.html')">P</span><span onclick="transitionToPage('src/html/project.html')">roject</span></a>
       </div>
       <div id="main">
@@ -48,20 +47,20 @@
       </div>
     </div>
       <div class = "mahdi-icon-wrap">
-        <a class = "cursor-pointer" href = "index.html"><img class = "fixed-title-icon" src="src/images/Frog.png" alt="Cool Frog"></span></a>
-        <a class = "cursor-pointer" href = "index.html" ><span class = "mahdi">MAHDI</span> <span class = "toussi">TOUSSI</span></a>
+        <a href = "index.html"><img class = "fixed-title-icon"/></a>
+        <a href = "index.html" ><span class = "mahdi">MAHDI</span> <span class = "toussi">TOUSSI</span></a>
       </div>
     <hr class = "fixed-title-line">
   </div>
 
   <!-- Mahdi Toussi -->
   <div class = "big-title">
-    <div class="parent-center animated-background">
+    <div class="parent-center homepage-background-container">
         <div>
         <span class = "big-name-mahdi">Mahdi</span> <span class = "big-name-toussi">Toussi</span>
         <p><span class = "big-info-1">Full-stack</span> <span class = "big-info-2">developer</span></p>
         <!-- Table animation drawing  sourced from: https://codepen.io/luishodesign/pen/VwaawWd-->
-        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style = "margin-top: 20px">
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="study">
             <rect width="64" height="64"/>
             <g id="smoke">
@@ -69,67 +68,46 @@
               <path id="smoke-1" d="M6.5 22L7.05279 20.8944C7.33431 20.3314 7.33431 19.6686 7.05279 19.1056L6.5 18L5.94721 16.8944C5.66569 16.3314 5.66569 15.6686 5.94721 15.1056L6.5 14" stroke="#797270"/>
             </g>
             <g id="laptop">
-              <rect id="laptop-base" x="17" y="28" width="20" height="3" fill="#F3F3F3" stroke="#21201f" stroke-width="2"/>
-              <rect id="laptop-screen" x="18" y="17" width="18" height="11" fill="#5A524E" stroke="#21201f" stroke-width="2"/>
-              <rect id="line-1" x="20" y="19" width="14" height="1" fill="#56874d"/>
-              <rect id="line-2" x="20" y="21" width="14" height="1" fill="#84CE77"/>
-              <rect id="line-3" x="20" y="23" width="14" height="1" fill="#56874d"/>
-              <rect id="line-4" x="20" y="25" width="14" height="1" fill="#84CE77"/>
+              <rect id="laptop-base" x="17" y="28" width="20" height="3" fill="#F3F3F3" stroke="#453F3C" stroke-width="2"/>
+              <rect id="laptop-screen" x="18" y="17" width="18" height="11" fill="#5A524E" stroke="#453F3C" stroke-width="2"/>
+              <rect id="line-1" x="20" y="19" width="14" height="1" fill="#F78764"/>
+              <rect id="line-2" x="20" y="21" width="14" height="1" fill="#F9AB82"/>
+              <rect id="line-3" x="20" y="23" width="14" height="1" fill="#F78764"/>
+              <rect id="line-4" x="20" y="25" width="14" height="1" fill="#F9AB82"/>
             </g>
             <g id="cup">
-              <rect id="Rectangle 978" x="5" y="24" width="5" height="7" fill="#CCC4C4" stroke="#21201f" stroke-width="2"/>
-              <path id="Ellipse 416" d="M11 28C12.1046 28 13 27.1046 13 26C13 24.8954 12.1046 24 11 24" stroke="#21201f" stroke-width="2"/>
+              <rect id="Rectangle 978" x="5" y="24" width="5" height="7" fill="#CCC4C4" stroke="#453F3C" stroke-width="2"/>
+              <path id="Ellipse 416" d="M11 28C12.1046 28 13 27.1046 13 26C13 24.8954 12.1046 24 11 24" stroke="#453F3C" stroke-width="2"/>
               <rect id="Rectangle 996" x="6" y="25" width="3" height="1" fill="#D6D2D1"/>
             </g>
             <g id="books">
-              <rect id="Rectangle 984" x="58" y="27" width="4" height="14" transform="rotate(90 58 27)" fill="#84CE77" stroke="#21201f" stroke-width="2"/>
-              <rect id="Rectangle 985" x="56" y="23" width="4" height="14" transform="rotate(90 56 23)" fill="#84CE77" stroke="#21201f" stroke-width="2"/>
-              <rect id="Rectangle 986" x="60" y="19" width="4" height="14" transform="rotate(90 60 19)" fill="#84CE77" stroke="#21201f" stroke-width="2"/>
-              <rect id="Rectangle 993" x="47" y="20" width="12" height="1" fill="#56874d"/>
-              <rect id="Rectangle 994" x="43" y="24" width="12" height="1" fill="#56874d"/>
-              <rect id="Rectangle 995" x="45" y="28" width="12" height="1" fill="#84CE77"/>
+              <rect id="Rectangle 984" x="58" y="27" width="4" height="14" transform="rotate(90 58 27)" fill="#B16B4F" stroke="#453F3C" stroke-width="2"/>
+              <rect id="Rectangle 985" x="56" y="23" width="4" height="14" transform="rotate(90 56 23)" fill="#797270" stroke="#453F3C" stroke-width="2"/>
+              <rect id="Rectangle 986" x="60" y="19" width="4" height="14" transform="rotate(90 60 19)" fill="#F78764" stroke="#453F3C" stroke-width="2"/>
+              <rect id="Rectangle 993" x="47" y="20" width="12" height="1" fill="#F9AB82"/>
+              <rect id="Rectangle 994" x="43" y="24" width="12" height="1" fill="#54504E"/>
+              <rect id="Rectangle 995" x="45" y="28" width="12" height="1" fill="#804D39"/>
             </g>
             <g id="desk">
-              <rect id="Rectangle 973" x="4" y="31" width="56" height="5" fill="#797270" stroke="#21201f" stroke-width="2"/>
-              <rect id="Rectangle 987" x="10" y="36" width="30" height="6" fill="#797270" stroke="#21201f" stroke-width="2"/>
-              <rect id="Rectangle 975" x="6" y="36" width="4" height="24" fill="#797270" stroke="#21201f" stroke-width="2"/>
-              <rect id="Rectangle 974" x="40" y="36" width="18" height="24" fill="#797270" stroke="#21201f" stroke-width="2"/>
-              <line id="Line 129" x1="40" y1="48" x2="58" y2="48" stroke="#21201f" stroke-width="2"/>
-              <line id="Line 130" x1="22" y1="39" x2="28" y2="39" stroke="#21201f" stroke-width="2"/>
-              <line id="Line 142" x1="46" y1="42" x2="52" y2="42" stroke="#21201f" stroke-width="2"/>
-              <line id="Line 131" x1="46" y1="54" x2="52" y2="54" stroke="#21201f" stroke-width="2"/>
-              <rect id="Rectangle 988" x="11" y="37" width="28" height="1" fill="#21201f"/>
+              <rect id="Rectangle 973" x="4" y="31" width="56" height="5" fill="#797270" stroke="#453F3C" stroke-width="2"/>
+              <rect id="Rectangle 987" x="10" y="36" width="30" height="6" fill="#797270" stroke="#453F3C" stroke-width="2"/>
+              <rect id="Rectangle 975" x="6" y="36" width="4" height="24" fill="#797270" stroke="#453F3C" stroke-width="2"/>
+              <rect id="Rectangle 974" x="40" y="36" width="18" height="24" fill="#797270" stroke="#453F3C" stroke-width="2"/>
+              <line id="Line 129" x1="40" y1="48" x2="58" y2="48" stroke="#453F3C" stroke-width="2"/>
+              <line id="Line 130" x1="22" y1="39" x2="28" y2="39" stroke="#453F3C" stroke-width="2"/>
+              <line id="Line 142" x1="46" y1="42" x2="52" y2="42" stroke="#453F3C" stroke-width="2"/>
+              <line id="Line 131" x1="46" y1="54" x2="52" y2="54" stroke="#453F3C" stroke-width="2"/>
+              <rect id="Rectangle 988" x="11" y="37" width="28" height="1" fill="#54504E"/>
               <rect id="Rectangle 992" x="5" y="32" width="54" height="1" fill="#9E9492"/>
-              <rect id="Rectangle 989" x="7" y="37" width="2" height="1" fill="#21201f"/>
-              <rect id="Rectangle 990" x="41" y="37" width="16" height="1" fill="#21201f"/>
-              <rect id="Rectangle 991" x="41" y="49" width="16" height="1" fill="#21201f"/>
-              <line id="Line 143" y1="60" x2="64" y2="60" stroke="#21201f" stroke-width="2"/>
+              <rect id="Rectangle 989" x="7" y="37" width="2" height="1" fill="#54504E"/>
+              <rect id="Rectangle 990" x="41" y="37" width="16" height="1" fill="#54504E"/>
+              <rect id="Rectangle 991" x="41" y="49" width="16" height="1" fill="#54504E"/>
+              <line id="Line 143" y1="60" x2="64" y2="60" stroke="#453F3C" stroke-width="2"/>
             </g>
           </g>
-        </svg>
-        </div>
+        </svg>          
       </div>
-  </div>
-
-  <!-- Homepage text -->
-  <div class = "homepage-text">
-    <span class="line firstOverlayLine"></span>
-    <span class="line secondOverlayLine"></span>
-    <img class = "spongebob" src="src/images/Spongebob.gif" alt="Me">
-    <!-- Animation Sourced from: https://css-tricks.com/snippets/css/typewriter-effect/ -->
-    <span class = "hello-world2"> &lt;header&gt; 
-    <a class="typewrite hello-world" data-period="2000" data-type='[ "Hello World" , "Welcome to my website" , "BOO!"]'></a> 
-    &lt;/header&gt; </span>
-    <p class = "intro1">I'm <span class = "green">Mahdi</span> Toussi</p>
-    <p class = "intro2">Aspiring Full-Stack developer</p>
-    <p class = "intro3">My ultimate goal is to create websites that are <span class = "green">fast</span>, <span class = "green">responsive</span> and look <span class = "green">professional!</span></p>
-  </div>
-
-    <!-- Bottom footer -->
-    <div class = "footer">
-      <a>mahdi2c.professional@hotmail.com</a>
-      <a target="_blank" href = "https://github.com/Mahdi2c"><img class = "footer-github-icon" src="src/images/git-icon.png" alt="Github-icon"></a>
-      <a target="_blank" href = "https://www.linkedin.com/in/mahdi-toussi-a76542209/"><img class = "footer-linkedin-icon" src="src/images/linkedin.png" alt="Linkedin-icon"></a>
     </div>
+  </div>
 </body>
 </html>
