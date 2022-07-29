@@ -88,24 +88,10 @@
     stroke-width: 10;
     stroke-dasharray: 440;
     stroke-dashoffset: 440;
-    stroke: #615144;
+    stroke: #c59369;
     stroke-linecap: round;
     transform: translate(5px, 5px);
   }
-  
-  .shadow-html {
-    filter: drop-shadow(0 0 5px #7e4110);
-  }
-  .shadow-css {
-    filter: drop-shadow(0 0 5px #7e4110);
-  }
-  .shadow-php {
-    filter: drop-shadow(0 0 5px #7e4110);
-  }
-  .shadow-js {
-    filter: drop-shadow(0 0 5px #7e4110);
-  } 
-
   
   .circle-html {
     -webkit-animation: anim_circle-html 1s ease-in-out forwards;

@@ -3,11 +3,21 @@ div,p,a,circle,svg{
     box-sizing: border-box;
   }
 
-.skills-page-title{
+.contact-page-title{
     text-align: center;
     font-size: 300%;
     color: #615144;
     padding-bottom: 100px;
+    padding-top: 50px;
+    font-weight: 800;
+    position: relative; 
+}
+
+.skills-page-title{
+    text-align: center;
+    font-size: 300%;
+    color: #615144;
+    padding-bottom: 30px;
     padding-top: 50px;
     font-weight: 800;
     position: relative; 
