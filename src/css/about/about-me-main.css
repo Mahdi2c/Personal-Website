@@ -3,7 +3,7 @@
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    height: 100vh;
+    height: 110vh;
     font-weight: 500;
     font-size: 120%;
     letter-spacing: 1px;
@@ -23,7 +23,7 @@
 .about-me-text{
     color: white;
     font-size: 110%;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .brown-about-me{
@@ -47,6 +47,13 @@
     .about-me-container{
         font-size: 95%;
         margin-top: 25%;
+        height: 130vh;
+    }
+
+    .about-me-text{
+        color: white;
+        font-size: 110%;
+        margin-bottom: 35px;
     }
 
     .about-me-left{
@@ -65,5 +72,12 @@
     
     .about-page-big-titles{
         padding-bottom: 60px;
+    }
+}
+
+ 
+@media (min-width: 2000px) { 
+    .about-me-container{
+     height: 70vh;
     }
 }

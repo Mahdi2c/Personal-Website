@@ -44,12 +44,12 @@ div,p,a,circle,svg{
     float: left;
     padding-top: 50px;
     width: 35%;
-    height: 60vh;
+    height: 20vh;
     max-width: 605px;
     font-weight: 300;
     letter-spacing: 1px;
     position: relative;
-    margin-bottom: 300px;
+    padding-bottom: 800px; 
     font-size: 105%;
   }
   
@@ -100,6 +100,7 @@ div,p,a,circle,svg{
   @media (max-width: 768px) { 
   .column-contact{
     width: 90%;
+    margin-bottom: 70%;
     margin-left: 5%;
     margin-right: 5%; 
   }
@@ -108,4 +109,3 @@ div,p,a,circle,svg{
     width: 100%;
   }
   }
-  

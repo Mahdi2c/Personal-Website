@@ -123,3 +123,9 @@
         margin-right: 50px;
     }
 }
+
+@media (min-width: 2000px) { 
+    .about-intro-sub-container{
+        height: 50vh;
+    }
+}
