@@ -12,26 +12,18 @@
     padding: 1%;
 }
 
+.cursor-pointer{
+    cursor: pointer;
+}
 
 .fixed-title-icon{
-    background: url('../../images/Icon.png');
-    background-size: contain;
-    border-radius: 50%;
     width: 130px;
     height: 130px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
     position: relative;
     left: 20%;
     float: left;
     border: 5px solid #72624d;   
-    background-color: #df9a39;
-}
-  
-.fixed-title-icon:hover{
-    background-image: url('../../images/Icon-after.png');
-    background-color: #c78931;
+    border-radius: 50%;
 }
 
 .fixed-title-line{
