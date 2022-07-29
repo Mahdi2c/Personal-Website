@@ -48,18 +48,18 @@
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: rgb(95, 72, 41);
+    background-color: #df9a39;
     color: white;
-    padding: 10px 15px;
-    border: none;
+    border: 5px solid #72624d;   
+    padding: 15px 20px; 
     position: absolute;
-    top: -10%;
+    top: 35%;
     font-weight: 300;
     border-radius: 20px;
   }
   
   .openbtn:hover {
-    background-color: rgb(78, 58, 31);
+    background-color: rgb(235, 178, 99);
     font-weight: 300;
   }
   
@@ -73,8 +73,8 @@
 /* Mobile and Tablet */
 @media (max-width: 768px) { 
   .openbtn {
+    top: 0%;
     left: -3%;
-    top: -30%;
     font-size: 10px;
     font-weight: 300;
   }

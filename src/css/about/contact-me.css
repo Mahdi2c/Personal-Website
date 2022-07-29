@@ -45,7 +45,7 @@
 
 /* When the inputs get focus, do something */
 .input[type=email]:focus, input[type=email]:focus {
-  background-color: rgb(243, 236, 203);
+  background-color: rgb(245, 242, 225);
   outline: none;
 }
 
@@ -61,7 +61,7 @@ textarea{
 /* When the inputs get focus, do something */
 textarea:focus{
   font-family: 'Inter', sans-serif;
-  background-color: rgb(243, 236, 203);
+  background-color: rgb(245, 242, 225);
   outline: none;
 }
 
@@ -80,7 +80,7 @@ textarea:focus{
 
 /* Add a red background color to the cancel button */
 .cancel {
-  background-color: rgb(165, 118, 18);
+  background-color: rgb(204, 168, 90);
 }
 
 /* Add some hover effects to buttons */

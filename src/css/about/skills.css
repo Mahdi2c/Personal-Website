@@ -53,9 +53,9 @@ div,p,a,circle,svg{
   
   /* !!!!!!!!!!!!!!!!!!!!!!!!  */
   .emails-text{
-      color: #615144;
-      padding-bottom: 30px;
+      color: #615144; 
       font-weight: 1000;
+      padding-bottom: 40px;
   }
   
   .emails-sub{
@@ -65,21 +65,33 @@ div,p,a,circle,svg{
   
   .website-text{
       color: #615144;
-      padding-bottom: 50px;
       font-weight: 1000;
-      
+      padding-bottom: 40px;
   }
   
   .website-sub{
       color: white; 
       font-weight: 700;
   }
+
+  .linkedin-text{
+    color: #615144;
+    font-weight: 1000;
+    margin-bottom: 40px;
+    display: inline-block
+}
+
+.linkedin-sub{
+    color: white; 
+    text-decoration: underline;
+    font-weight: 700;
+}
   
   @media (max-width: 768px) { 
   .column-contact{
     width: 90%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5%; 
   }
   
   .column-skills{
