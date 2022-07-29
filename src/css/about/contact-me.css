@@ -1,50 +1,55 @@
 /* The popup form - hidden by default */
 /* SOURCED FROM:  https://www.w3schools.com/howto/howto_js_popup_form.asp   */
-.form-popup {
-  display: none;
-  position: fixed;
-  z-index: 9;
-  margin-top: 15px;
-}
 
 /* Add styles to the form container */
-.form-container {
-  color: white;
-  max-width: 300px;
-  padding: 10px;
-  background-color: #32333A;
+#popup{
+  position: fixed;
+  z-index: 10;
+  top: 40%;
+  font-size: 110%;
+  font-weight: 500;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 600px;
+  padding: 50px;
+  box-shadow: 0 5px 30px rgba(0,0,0, 0.3);
+  background: rgb(219, 207, 180);
+  visibility: hidden;
+  color: black;
+  opacity: 0;
+  border-radius: 20px;
+  transition: 0.5s;
+  font-family: 'Inter', sans-serif;
 }
 
-/* Full-width input fields */
-.form-container input[type=text], .form-container input[type=password] {
+#popup.active{
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.about-page-whole-container#blur.active{
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+
+.input[type=email], input[type=email] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
   border: none;
-  background: #f1f1f1;
+  background: #fff;
 }
 
 /* When the inputs get focus, do something */
-.form-container input[type=text]:focus, .form-container input[type=text]:focus {
-  background-color: rgb(199, 196, 196);
+.input[type=email]:focus, input[type=email]:focus {
+  background-color: rgb(243, 236, 203);
   outline: none;
 }
 
-.form-container input[type=email], .form-container input[type=email] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-
-/* When the inputs get focus, do something */
-.form-container input[type=email]:focus, .form-container input[type=email]:focus {
-  background-color: rgb(199, 196, 196);
-  outline: none;
-}
-
-.form-container textarea{
+textarea{
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -54,30 +59,67 @@
 }
 
 /* When the inputs get focus, do something */
-.form-container textarea:focus{
+textarea:focus{
   font-family: 'Inter', sans-serif;
-  background-color: rgb(199, 196, 196);
+  background-color: rgb(243, 236, 203);
   outline: none;
 }
 
 /* Set a style for the submit/login button */
-.form-container .btn {
-  background-color: #6faf64;
-  color: white;
+.btn {
+  background-color: #d6e5a0;
+  color: black;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
+  font-size: 110%;
   width: 100%;
   margin-bottom:10px;
   opacity: 0.9;
 }
 
 /* Add a red background color to the cancel button */
-.form-container .cancel {
-  background-color: rgb(15, 99, 29);
+.cancel {
+  background-color: rgb(165, 118, 18);
 }
 
 /* Add some hover effects to buttons */
-.form-container .btn:hover, .open-button:hover {
+ .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+/* Mobile and Tablet */
+@media (max-width: 768px) { 
+  #popup{
+    width: 90vw;
+    height: 50vh;
+  }  
+}
+
+@media (min-width: 2000px) { 
+  .form-popup {
+    bottom: 25%;
+    left: 40%;
+  }  
+
+  .form-container {
+    width: 20vw;
+    height: 40vh;
+    padding: 20px 20px 0px 20px;
+  }
+}
+
+/* Mobile and Tablet */
+@media (min-width: 2000px) { 
+  #popup{
+    width: 90vw;
+    height: 50vh;
+  }  
+}
+
+@media (min-width: 2000px) { 
+  #popup{
+    width: 25vw;
+    height: 50vh;
+  }  
 }

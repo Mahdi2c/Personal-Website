@@ -4,12 +4,12 @@
     position: fixed;
     font-weight: 400;
     width: 100%;
-    font-size: 130%;
+    font-size: 110%;
     color: white;
     z-index: 10000;
     display: inline-block; 
     background-color: #72624d;
-    padding: 1%;
+    padding: 10px;
 }
 
 .cursor-pointer{
@@ -37,14 +37,14 @@
 
 .mahdi{
     position: relative;
-    left: 100%;
+    left: 80%;
     color: #df9a39;
     font-weight: 800;
 }
 
 .toussi{
     position: relative;
-    left: 100%;
+    left: 80%;
 }
 
 .HSPR{

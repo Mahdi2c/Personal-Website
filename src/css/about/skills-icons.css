@@ -88,22 +88,22 @@
     stroke-width: 10;
     stroke-dasharray: 440;
     stroke-dashoffset: 440;
-    stroke: white;
+    stroke: #615144;
     stroke-linecap: round;
     transform: translate(5px, 5px);
   }
   
   .shadow-html {
-    filter: drop-shadow(0 0 5px #45c42e);
+    filter: drop-shadow(0 0 5px #7e4110);
   }
   .shadow-css {
-    filter: drop-shadow(0 0 5px #15aefa);
+    filter: drop-shadow(0 0 5px #7e4110);
   }
   .shadow-php {
-    filter: drop-shadow(0 0 5px #ffbb02);
+    filter: drop-shadow(0 0 5px #7e4110);
   }
   .shadow-js {
-    filter: drop-shadow(0 0 5px #fa3636);
+    filter: drop-shadow(0 0 5px #7e4110);
   } 
 
   
@@ -135,6 +135,7 @@
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 0.25em;
     transform: translate(-50%, -50%) rotate(90deg);
+    font-weight: 700;
   }
   
   @-webkit-keyframes anim_circle-html {

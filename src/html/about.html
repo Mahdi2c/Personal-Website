@@ -60,6 +60,8 @@
     <hr class = "fixed-title-line">
   </div>
 
+<!-- This div contains everything for blur effect -->
+<div class = "about-page-whole-container" id = "blur">
   <!-- Homepage text -->
   <div class = "about-intro-main-container">
     <div class = "about-intro-sub-container">
@@ -105,24 +107,7 @@
       <p class = "website-text">Website : <span class = "website-sub">mahdi2c.github.io/Personal-Website/</span></p>
       <!-- Button that opens contact form -->
       <div>
-        <button class="cv-button" onclick="openForm()">Contact me</button>
-          <div class="form-popup" id="myForm">
-            <form class = "form-container" action="https://formspree.io/f/xyyorbqr" method="post">
-              
-              <!-- Enter email -->
-              <label for="message"><b>Email</b>
-              <input type="email" name="email" placeholder="Enter your email"required>
-              </label>
-
-              <!-- Enter message -->
-              <label for="name"><b>Message</b>
-              <textarea type="text" name="name" placeholder="Enter your message" required> </textarea>
-              </label>
-
-              <input type="submit" class="btn"></button>
-              <button type="button" class="btn cancel" onclick="closeForm()">&times;</button>
-            </form>
-          </div>
+        <button class="cv-button" onclick="toggle();">Contact me</button>
       </div>
     </div>
     <!-- SOURCED FROM: https://alvarotrigo.com/blog/progress-bar-css/ */ -->
@@ -159,6 +144,23 @@
       </div>
     </div>
   </div>
+</div>
+<div id="popup">
+  <form class = "form-container" action="https://formspree.io/f/xyyorbqr" method="post">
+    <!-- Enter email -->
+    <label for="message"><b>Email</b>
+    <input type="email" name="email" placeholder="Enter your email"required>
+    </label>
+
+    <!-- Enter message -->
+    <label for="name"><b>Message</b>
+    <textarea type="text" name="name" placeholder="Enter your message" required> </textarea>
+    </label>
+
+    <input type="submit" class="btn"></button>
+    <button type="button" class="btn cancel" onclick="toggle();">&times;</button>
+  </form>
+</div>
 </body>
 </html>
 

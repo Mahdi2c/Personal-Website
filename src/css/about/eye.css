@@ -20,7 +20,6 @@
   /* Mobile and Tablet */
   @media (max-width: 768px) { 
     .eye-white{
-      border-radius: 100%;
       width: 70px;
       height: 70px;
 

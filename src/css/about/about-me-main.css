@@ -44,6 +44,7 @@
  /* Mobile and Tablet */
  @media (max-width: 768px) { 
     .about-me-container{
+        font-size: 95%;
         margin-top: 25%;
     }
 

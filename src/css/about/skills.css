@@ -60,7 +60,7 @@ div,p,a,circle,svg{
   
   .emails-sub{
       color: white;
-      font-weight: 500;
+      font-weight: 700;
   }
   
   .website-text{
@@ -72,7 +72,7 @@ div,p,a,circle,svg{
   
   .website-sub{
       color: white; 
-      font-weight: 500;
+      font-weight: 700;
   }
   
   @media (max-width: 768px) { 
