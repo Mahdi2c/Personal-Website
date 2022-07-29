@@ -1,7 +1,8 @@
 .eye-white{
   width: 100px;
   height: 100px;
-  border-radius: 100%;
+  border-radius: 30%;
+  border: 3px solid #615144;
   position: relative;
   background: white;
 }
@@ -13,7 +14,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  background:rgb(27, 37, 28);
+  background: #615144;
 }
 
   /* Mobile and Tablet */

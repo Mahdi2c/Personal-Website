@@ -1,11 +1,11 @@
 .about-intro-main-container{
-    background: #adc95f; 
+    background: #c4da89;
     padding-bottom: 100px;
 }
 
 .about-intro-sub-container{
     position: relative;
-    top: 40%;
+    top: 32%;
     left: 13%;
     width: 87%;
     height: 95vh;
@@ -14,23 +14,22 @@
     font-family: 'Inter', sans-serif;
 }
 
-
 .brown{
-    color: #615144 !important;
+    color: #705839 !important;
     font-weight: 800 !important;
 }
 
 .hello-world{
     font-weight: 700;
     font-size: calc(32px + 12 * ((200vw - 640px) / 1360));
-    color: #615144;
+    color: #705839;
     word-wrap: break-word;
     white-space: pre-wrap;
     word-break: break-word;
 }
 
 .hello-world2{
-    font-weight: 300;
+    font-weight: 400;
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
     color: white;
     word-wrap: break-word;
@@ -39,7 +38,7 @@
 }
 
 .intro1{
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 20px;
     font-size: calc(24px + 9 * ((150vw - 480px) / 1020));
     width: 40%;
@@ -47,14 +46,14 @@
 }
 
 .intro2{
-    font-weight: 300;
+    font-weight: 400;
     font-size: calc(19.2px + 7.2 * ((120vw - 384px) / 816));
     margin-bottom: 15px;
     color: white;
 }
 
 .intro3{
-    font-weight: 300;
+    font-weight: 400;
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
     width: 40%;
     color: white;
@@ -77,11 +76,19 @@
     .spongebob{
         width: 100%;
         top: -20%;
+        margin-bottom: -10%;
     } 
+
+    .about-intro-main-container{
+        background: #c4da89;
+        padding-bottom: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 
     .hello-world{
         font-size: calc(32px + 12 * ((200vw - 640px) / 1360));
-        color: #615144;
+        color: #6d482a;
         width: 100%;
         margin-right: 50px;
     }

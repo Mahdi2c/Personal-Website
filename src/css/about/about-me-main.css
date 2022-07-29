@@ -1,14 +1,25 @@
 .about-me-container{
     position: relative; 
-    margin-bottom: 7%;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
+    height: 100vh;
+    font-weight: 500;
+    font-size: 120%;
     letter-spacing: 1px;
     padding: 100px 50px 100px 50px;
-    background: #829e33; 
+    background: #b4ce6d; 
 }
 
+.about-page-big-titles{
+    text-align: center;
+    font-size: 300%;
+    color: #615144;
+    padding-bottom: 100px;
+    font-weight: 800;
+    position: relative;
+}
+ 
 .about-me-text{
     color: white;
     font-size: 110%;
@@ -16,8 +27,8 @@
 
 .brown-about-me{
     color: #615144 !important;
-    font-weight: 800 !important;
-    font-size: 120%;
+    font-weight: 1000 !important;
+    font-size: 110%;
 }
 
 .about-me-left{
@@ -50,4 +61,7 @@
         margin-bottom: 50px;
     }
     
+    .about-page-big-titles{
+        padding-bottom: 60px;
+    }
 }
