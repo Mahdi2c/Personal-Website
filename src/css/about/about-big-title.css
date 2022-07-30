@@ -22,20 +22,20 @@
 }
 
 .parent-center{
-    height: 100vh;  
+    height: 100%;  
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.big-name-recent{
+.big-name-about{
     font-weight: 600;
     font-size: 500%;
     padding-bottom: 5%;
     color: #615144;
 }
 
-.big-name-project{
+.big-name-me{
     font-weight: 200;
     font-size: 500%;
     padding-bottom: 5%;
@@ -53,14 +53,14 @@
 
 /* Mobile and Tablet */
 @media (max-width: 768px) { 
-    .big-name-recent{
+    .big-name-about{
         font-size: 350%;
         font-weight: 1000;
         margin-left: auto;
         margin-right: auto;
     }
     
-    .big-name-project{
+    .big-name-me{
         font-size: 350%;
         margin-left: auto;
         margin-right: auto;

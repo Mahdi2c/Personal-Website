@@ -1,9 +1,6 @@
 .about-all-pages-background{
     background: #c4da89;  
-    display: grid;
 }
 
 .about-page-whole-container{
-    position: relative;
-    top: 11%;
 }
