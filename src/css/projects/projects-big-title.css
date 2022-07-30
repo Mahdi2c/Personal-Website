@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     overflow: hidden;
     position: relative;     
-}
+  }
   
 
 .big-title{
@@ -30,14 +30,14 @@
     justify-content: center;
 }
 
-.big-name-mahdi{
+.big-name-recent{
     font-weight: 600;
     font-size: 500%;
     padding-bottom: 5%;
     color: #615144;
 }
 
-.big-name-toussi{
+.big-name-project{
     font-weight: 200;
     font-size: 500%;
     padding-bottom: 5%;
@@ -53,17 +53,16 @@
     font-weight: 800;
 }
 
-
 /* Mobile and Tablet */
 @media (max-width: 768px) { 
-    .big-name-mahdi{
+    .big-name-recent{
         font-size: 350%;
         font-weight: 1000;
         margin-left: auto;
         margin-right: auto;
     }
     
-    .big-name-toussi{
+    .big-name-project{
         font-size: 350%;
         margin-left: auto;
         margin-right: auto;
