@@ -10,11 +10,7 @@
   <link rel="stylesheet" href="../css/reset.css">
 
   <!-- Importing All Projects -->
-  <link rel="stylesheet" href="../css/projects/project-exam.css">
-  <link rel="stylesheet" href="../css/projects/project-kiyanpay.css">
-  <link rel="stylesheet" href="../css/projects/project-weather.css">
-  <link rel="stylesheet" href="../css/projects/project-blogging.css"> 
-  <link rel="stylesheet" href="../css/projects/project-tamagotchi.css"> 
+  <link rel="stylesheet" href="../css/projects/projects-big-title.css">
   <link rel="stylesheet" href="../css/projects/projects.css">
 
   <!-- Importing Big title screen -->
@@ -25,6 +21,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+  <!-- Importing scrollreveal js -->
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
   <!-- Importing ALL js -->
   <script src="../js/page-navigation.js"></script>
@@ -115,9 +114,27 @@
     </div>
   </div>
 
-  <!-- Start of projects -->
-  <div>
+  <!-- Start of projects BEFORE: df9a39   AFTER : dfaf60-->
+  <div class="wrapper">
+    <header class = "text-container">
+      <p><span class="anim title-project-section">2020 - </span><span class="anim title-sub-section">Present</span></p>
+      <span class="anim info-sub-section">More coming </span><span class="anim info-project-section">Soon</span>
+    </header>
+
+  <div class="projects-images-container">
+      <a href = ""><img class="anim kiyanpay-img" src='../images/Projects images/Kiyanpay.png' onmouseover="this.src='../images/Projects images/Kiyanpay-after.png';" onmouseout="this.src='../images/Projects images/Kiyanpay.png';"></a>
+      <a href = ""><img class="anim kiyanpay-img" src='../images/Projects images/Kiyanpay.png' onmouseover="this.src='../images/Projects images/Kiyanpay-after.png';" onmouseout="this.src='../images/Projects images/Kiyanpay.png';"></a>
+      <a href = ""><img class="anim kiyanpay-img" src='../images/Projects images/Kiyanpay.png' onmouseover="this.src='../images/Projects images/Kiyanpay-after.png';" onmouseout="this.src='../images/Projects images/Kiyanpay.png';"></a>
+      <a href = ""><img class="anim kiyanpay-img" src='../images/Projects images/Kiyanpay.png' onmouseover="this.src='../images/Projects images/Kiyanpay-after.png';" onmouseout="this.src='../images/Projects images/Kiyanpay.png';"></a>
+      <a href = ""><img class="anim kiyanpay-img" src='../images/Projects images/Kiyanpay.png' onmouseover="this.src='../images/Projects images/Kiyanpay-after.png';" onmouseout="this.src='../images/Projects images/Kiyanpay.png';"></a>
+      <a href = ""><img class="anim kiyanpay-img" src='../images/Projects images/Kiyanpay.png' onmouseover="this.src='../images/Projects images/Kiyanpay-after.png';" onmouseout="this.src='../images/Projects images/Kiyanpay.png';"></a>
   </div>
+
+  <script type="text/javascript">
+    window.sr = ScrollReveal();
+    sr.reveal('.anim');
+  </script>
+
 </body>
 </html>
 

@@ -1,3 +1,69 @@
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* .work */
+.projects-images-container {
+  text-align: center;
+  width: 100%;
+}
+
+.projects-images-container img {
+  margin: 1%;
+  width: 32%;
+}
+
+.text-container{
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  margin: 100px auto 50px auto;
+  padding-bottom: 50px;
+}
+
+.title-project-section{
+  font-weight: 600;
+  font-size: 500%;
+  color: #615144;
+}
+
+.title-project-section{
+  font-weight: 600;
+  font-size: 500%;
+  color: #615144;
+}
+
+.title-sub-section{
+  font-weight: 200;
+  font-size: 500%;
+  color: white;
+}
+
+.info-project-section{
+  font-size: 200%;
+  color: #615144; 
+  font-weight: 800;
+  color: #615144;
+}
+
+.info-sub-section{
+  font-size: 200%;
+  color: white;
+}
+
+.kiyanpay-img{
+  border-radius: 10%;
+}
+
+@media only screen and (max-width: 991px) {
+  .projects-images-container img {
+        margin: 2%;
+        width: 90%;
+  }
+}
+
+
 .project-all-pages-background{
   background: #c4da89;  
   display: grid;
