@@ -1,15 +1,23 @@
 .about-intro-main-container{
-    background: #c4da89;
-    padding-bottom: 100px;
-    position: relative;
-    top: 50px;
-    left: 10%;
-    width: 87%;
-    height: 80vh;
-    font-size: 125%;
-    letter-spacing: 1px;
+    position: relative; 
     font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    height: 90vh;
+    font-weight: 500;
+    font-size: 120%;
+    letter-spacing: 1px;
+    padding: 100px 50px 100px 50px;
+    background: #c4da89;
 }
+
+.about-intro-text-container{
+    text-align: left;
+    color: white;
+    width: 90%;
+    margin-left: 10%;
+    font-size: 110%;
+}
+
 
 .brown{
     color: #705839 !important;
@@ -57,13 +65,10 @@
 }
 
 .spongebob{
-    position: relative;
     float: right;
     border-radius: 50px;
-    left: -8%;
     width: 35%;
-    height: auto;
-    top: -50px;
+    margin-right: 5%;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -71,9 +76,14 @@
   /* Mobile and Tablet */
 @media (max-width: 768px) { 
     .spongebob{
-        width: 100%;
-        top: -20%;
-        margin-bottom: -10%;
+        position: static;
+        width: 75vw;
+        float: none;
+        justify-content: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 70px;
     } 
 
     .about-intro-main-container{
@@ -82,6 +92,14 @@
         padding-bottom: 0px;
         padding-right: 20px;
         padding-left: 20px;
+        height: 100vh;
+    }
+
+    .about-intro-text-container{
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .hello-world{
@@ -126,4 +144,12 @@
     .about-intro-sub-container{
         height: 50vh;
     }
+
+    .about-intro-main-container{
+        height: 65vh;
+    }
+
+    .spongebob{
+        width: 25vw;
+    } 
 }
