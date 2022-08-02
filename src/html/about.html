@@ -16,7 +16,6 @@
   <link rel="stylesheet" href="../css/about/skills-button.css">
   <link rel="stylesheet" href="../css/about/skills-icons.css">
   <link rel="stylesheet" href="../css/about/contact-me.css">
-  <link rel="stylesheet" href="../css/about/eye.css">
   <link rel="stylesheet" href="../css/about/skills-page.css">
   <link rel="stylesheet" href="../css/about/about-general.css">
 
@@ -215,20 +214,3 @@
 </div>
 </body>
 </html>
-
- <!--  Sourced from: https://www.howtocodeschool.com/2020/10/mouse-following-eyes-using-css-and-javascript.html -->
-<script>
-  var  eye = document.getElementsByClassName("eye-ball");
-  document.onmousemove = function(){
-  var width = window.innerWidth;
-  var x = event.clientX;
-  var a = x / width;
-  a= a *100;
-  var height = window.innerHeight;
-  var y = event.clientY;
-  var b = y / height;
-  b= b *100;
-  eye[0].style.cssText = "left: " + a + "%; top: " + b + "%;" + "transform:translate(-"+a+"%,-"+b+"%)";
-  eye[1].style.cssText = "left: " + a + "%; top: " + b + "%;" + "transform:translate(-"+a+"%,-"+b+"%)"; 
-  }
-  </script>
