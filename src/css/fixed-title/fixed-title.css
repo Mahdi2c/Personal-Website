@@ -27,12 +27,12 @@
 }
 
 .fixed-title-line{
-    width: 60%; 
-    border: 2px solid #ffffff;
+    width: 40%; 
+    border: 1px solid #ffffff;
     position: absolute;
     top: 50%;
     border-radius: 50px;
-    left: 20%;
+    left: 30%;
 }
 
 .mahdi{
