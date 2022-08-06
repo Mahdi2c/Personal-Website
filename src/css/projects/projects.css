@@ -1,5 +1,5 @@
 .wrapper {
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
   text-align: center;
 }
@@ -8,11 +8,12 @@
 .projects-images-container {
   text-align: center;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .projects-images-container img {
-  margin: 1%;
-  width: 32%;
+  margin: 4%;
+  width: 30%;
 }
 
 .text-container{
@@ -53,7 +54,21 @@
 }
 
 .kiyanpay-img{
+  border-radius: 3%;
 }
+
+.kiyanpay-img:hover{
+  filter: saturate(1.4);
+}
+
+.dinosaur-img{
+  border-radius: 3%;
+}
+
+.dinosaur-img:hover{
+  filter: saturate(2.2);
+}
+
 
 @media only screen and (max-width: 991px) {
   .projects-images-container img {
