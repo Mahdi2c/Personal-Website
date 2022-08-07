@@ -113,26 +113,17 @@
   transform: scale(1.1);
 }
 
-
-
-
-@media only screen and (max-width: 991px) {
+@media (max-width: 768px){
   .projects-images-container img {
-        margin: 2%;
+        margin: 0 auto 50px auto;
         width: 90%;
   }
 }
-
 
 .project-all-pages-background{
   background: #c4da89;  
   display: grid;
 }
-
-@media (max-width: 768px) { 
-
-}
-
 
 /* Image hover effect https://code-boxx.com/text-over-image-hover-html-css/ */
 .fullwrap {
