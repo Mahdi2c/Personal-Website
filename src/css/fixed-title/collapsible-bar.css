@@ -5,8 +5,8 @@
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
-    top: 1%;
-    right: 5px;
+    top: 5%;
+    right: 0px;
     background-color: #72624d;/* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px; /* Place content 20px from the top */
@@ -83,5 +83,18 @@
     font-size: 90%;
     padding: 8px 8px 8px 16px;
     font-weight: 300;
+  }
+
+  .sidebar {
+    top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/* Mobile and Tablet */
+@media (min-width: 2000px) { 
+  .sidebar {
+    top: 1%;
   }
 }
