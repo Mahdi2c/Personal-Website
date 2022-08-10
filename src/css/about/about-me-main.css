@@ -2,7 +2,7 @@
     position: relative; 
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    height: 110vh;
+    height: 120vh;
     font-weight: 500;
     font-size: 120%;
     letter-spacing: 1px;
@@ -50,7 +50,7 @@
     .about-me-container{
         font-size: 95%;
         margin-top: 25%;
-        height: 130vh;
+        height: 135vh;
     }
 
     .about-me-text{
@@ -81,7 +81,7 @@
  
 @media (min-width: 2000px) { 
     .about-me-container{
-     height: 70vh;
+     height: 75vh;
     }
 
     .about-me-img{
