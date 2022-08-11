@@ -5,7 +5,7 @@ div,p,a,circle,svg{
 
 .contact-page-title{
     text-align: center;
-    font-size: 300%;
+    font-size: 350%;
     color: #615144;
     padding-bottom: 100px;
     padding-top: 50px;
@@ -15,7 +15,7 @@ div,p,a,circle,svg{
 
 .skills-page-title{
     text-align: center;
-    font-size: 300%;
+    font-size: 350%;
     color: #615144;
     padding-bottom: 30px;
     padding-top: 50px;
@@ -29,7 +29,7 @@ div,p,a,circle,svg{
     float: left;
     width: 45%;
     margin-right: 10%;
-    padding-top: 50px;
+    margin-top: 7%;
     height: 65vh;
     padding-left: 6%;
     padding-right: 5%;
@@ -43,7 +43,7 @@ div,p,a,circle,svg{
   .column-skills{
     font-family: 'Inter', sans-serif;
     float: left;
-    padding-top: 50px;
+    margin-top: 7%;
     width: 25%;
     margin-left: 10%;
     height: 20vh;
