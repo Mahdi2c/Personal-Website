@@ -1,0 +1,63 @@
+/* Sourced from: https://codepen.io/luishodesign/pen/YzGEQmr */
+svg {
+	width: calc(55px * 5);
+	height: calc(55px * 5);
+}
+
+/* ELEMENTS & ACTIONS */
+#switch,
+#drawer_1,
+#drawer_2 {
+	cursor: pointer;
+}
+
+#light {
+	display: none;
+}
+
+.turn_on {
+	display: block !important;
+}
+
+.turn_off {
+	display: none !important;
+}
+
+.switch_up {
+	animation: switchUp 0.3s ease-in forwards;
+}
+
+.switch_down {
+	animation: switchDown 0.3s ease-in forwards;
+}
+
+.drawer-open {
+	animation: drawerOpen 0.2s ease-in forwards;
+}
+
+.drawer-closed {
+	animation: drawerClosed 0.2s ease-in forwards;
+}
+
+/* ANIMATIONS */
+@keyframes switchUp  {
+	0% { transform: translateY(2px); }
+	50% { transform: translateY(4px); }
+	100% { transform: translateY(0); }
+}
+
+@keyframes switchDown  {
+	0% { transform: translateY(0); }
+	50% { transform: translateY(4px); }
+	100% { transform: translateY(2px); }
+}
+
+@keyframes drawerOpen {
+	from {transform: translateX(0);}
+	to {transform: translateX(-10px);}
+}
+
+@keyframes drawerClosed {
+	from {transform: translateX(-10px);}
+	to {transform: translateX(0);}
+}
