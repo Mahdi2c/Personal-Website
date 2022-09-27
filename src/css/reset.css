@@ -51,3 +51,25 @@ a{
 	text-decoration: none;
 	color: white;
 }
+
+/* Sourced from https://css-tricks.com/almanac/properties/s/scrollbar-color/*/
+
+html {
+	--scrollbarBG: #c4da89;
+	--thumbBG: #72624d;
+  }
+  body::-webkit-scrollbar {
+	width: 11px;
+  }
+  body {
+	scrollbar-width: thin;
+	scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+	background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+	background-color: var(--thumbBG) ;
+	border-radius: 6px;
+	border: 3px solid var(--scrollbarBG);
+  }
