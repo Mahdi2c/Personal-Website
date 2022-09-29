@@ -93,13 +93,13 @@
   filter: saturate(1.4);
 }
 
-.blogging-img{
+.Blogging-img{
   border-radius: 3%;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
   filter: saturate(0.8);
 }
 
-.blogging-img:hover{
+.Blogging-img:hover{
   transform: scale(1.1);
   filter: saturate(1.1);
 }
