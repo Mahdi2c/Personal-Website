@@ -120,6 +120,6 @@ textarea:focus{
 @media (min-width: 2000px) { 
   #popup{
     width: 25vw;
-    height: 50vh;
+    height: 12vh;
   }  
 }
